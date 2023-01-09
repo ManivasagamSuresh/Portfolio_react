@@ -7,9 +7,9 @@ import { MdEmail } from 'react-icons/md';
 function Contact() {
   return (
     
-<div id="contact">
 
-<div class="container">
+
+<div id="contact" class="container">
   <div class="row">
     <div class="col-lg-5">
       <div class="contact-l">
@@ -38,7 +38,7 @@ function Contact() {
   </div>
 </div>
 </div>
-</div>
+
 
 
   )

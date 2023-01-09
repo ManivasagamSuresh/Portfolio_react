@@ -182,7 +182,7 @@ nav li a:hover::after{
 #about{
   margin-top: 220px;
 }
-.about-title span h1{
+#about h1{
   margin-top: 40px;
   text-align: center;
   font-size: 40px;
@@ -198,13 +198,13 @@ nav li a:hover::after{
 .Tech{
   padding: 20px 0px 30px;
 }
-.softskills.container{
+.softskills{
   margin-top: 60px;
   margin-bottom: 50px;  
 
 }
 
-.softskills.container div ul li{
+.softskills div ul li{
 list-style-type: disc;
 margin:20px 0px 0px 30px;
 
@@ -404,7 +404,7 @@ margin-right: 0px;
   border-radius: 15px;
   overflow: hidden;
 }
-.projects{
+#project{
   margin-top:340px;
   margin-bottom:100px;
 }

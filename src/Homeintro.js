@@ -5,9 +5,10 @@ import { BsLinkedin } from 'react-icons/bs';
 
 function Homeintro() {
   return (
-    <div id="home"> 
-<div className="boxintro">
     <div className="container">
+    <div className="boxintro" id="home"> 
+{/* <div className="boxintro"> */}
+    
       <div className="row">
         <div className="col-lg-6 indexi1">
         <div id="home-intro">
@@ -26,7 +27,7 @@ function Homeintro() {
       </div>
     </div>
     </div>
-  </div> 
+  // </div> 
 
 
   )

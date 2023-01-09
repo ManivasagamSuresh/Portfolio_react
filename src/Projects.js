@@ -3,8 +3,8 @@ import img from './images/Projects-yellow.jpg'
 
 function Projects() {
   return (
-    <div id="project">
-<div class="container projects">
+    
+<div id="project" class="container">
   <div class="row">
     
     <div class="col-lg-12">
@@ -19,7 +19,8 @@ function Projects() {
           <p class="card-text">To display the brewaries list of searched state with its address and URL</p>
           <a href="https://lambent-unicorn-b71d41.netlify.app" target="_blank" class="btn btn-outline-warning">Check Out</a>
         </div>
-      </div></div>
+      </div>
+      </div>
 
       <div class="col-lg-4">
       <div class="card" style={{width: "18rem"}}>
@@ -29,7 +30,8 @@ function Projects() {
           <p class="card-text">To display the random wild animal name and age with its image while refresh the page</p>
           <a href="https://unrivaled-toffee-e10c83.netlify.app" target="_blank" class="btn btn-outline-warning">Check Out</a>
         </div>
-      </div></div>
+      </div>
+      </div>
 
       <div class="col-lg-4">
       <div class="card" style={{width: "18rem"}}>
@@ -43,7 +45,7 @@ function Projects() {
     </div>
   </div>
   </div>
-</div>
+
   )
 }
 
