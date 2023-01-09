@@ -8,7 +8,6 @@ import mongo from "./images/mongodb.svg";
 import node from "./images/nodejs.svg";
 import npm from "./images/npm.png";
 import post from "./images/postman.png";
-import redux from "./images/redux.svg";
 import sql from "./images/mysql.svg";
 import git from "./images/git.svg";
 
@@ -34,15 +33,17 @@ function About() {
     }
   };
   return (
-    <div id="about" className="container">
+    <div id="about">
+      <div className="row">
+      <div className="col-lg-12">
       <h1 className="display-4">About</h1>
       <p className="about-info ">
         I am a self-learner, curious and enthusiastic in learning new things.
         Seeking a perfect role to enhance and explore my technical knowledge in
         full stack development.
       </p>
-
-      <div className="row">
+      
+      
         <div className="about col-lg-12">
           <div className="tab-titles">
             <p
@@ -71,27 +72,28 @@ function About() {
             </p>
           </div>
         </div>
-      </div>
+      
 
       <div className={`tab-contents  ${Skill ? "active-tab" : ""}`} id="skills">
-        <div className="row">
+        
           <div className="col-lg-12">
             <h4 className="Tech">Technologies and Tools :</h4>
 
-            <div className="gridicon1 row">
-              <div className="col-lg-3">
+            <div className="row">
+              
+              <div className="col-lg-3 gridicon1 ">
                 <img src={html} alt="" />
                 <span>HTML</span>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 gridicon1 ">
                 <img src={js} alt="" id="jsicon" />
                 <span>Java Script</span>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 gridicon1 ">
                 <img src={css} alt="" id="cssicon" />
                 <span>CSS</span>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 gridicon1 ">
                 <img src={boot} alt="" id="bootstrapicon" />
                 <span>BootStrap</span>
               </div>
@@ -128,13 +130,13 @@ function About() {
                 <img src={npm} alt="" />
                 <span>NPM</span>
               </div>
-              <div className="col-lg-3">
+              {/* <div className="col-lg-3">
                 <img src={git} alt="" />
                 <span>Git</span>
-              </div>
+              </div> */}
             </div>
           </div>
-        </div>
+        
         <div className="row">
           <div className="col-lg-6 softskills">
             <h4>Soft Skills :</h4>
@@ -155,7 +157,8 @@ function About() {
         </div>
       </div>
 
-      <div className="row">
+      {/* ////////////////////////////////////////////////////////// */}
+      
         <div
           className={`col-lg-12 tab-contents  ${edu ? "active-tab" : ""}`}
           id="Education"
@@ -178,9 +181,9 @@ function About() {
             </li>
           </ul>
         </div>
-      </div>
+      
 
-      <div className="row">
+      {/* //////////////////////////////////////////////////// */}
         <div
           className={`col-lg-12 tab-contents  ${exp ? "active-tab" : ""}`}
           id="Experience"
@@ -199,8 +202,10 @@ function About() {
             </li>
           </ul>
         </div>
-      </div>
+      
     </div>
+    </div>
+      </div>
   );
 }
 

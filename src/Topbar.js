@@ -4,7 +4,8 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
 
 function Topbar() {
   return (
-    <div className="containernav">     
+    <div className="row">
+    <div className="containernav col-lg-12">  
         <nav className="navbar navbar-expand-lg">
   <div className="container-fluid">
     <button id="navbut"  onClick={()=>{console.log('hello')}}
@@ -21,6 +22,7 @@ function Topbar() {
     </div>
   </div>
 </nav>
+    </div>
     </div>
 
   )

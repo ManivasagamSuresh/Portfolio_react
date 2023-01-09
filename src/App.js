@@ -14,14 +14,16 @@ function App() {
  
   return (
     <div className="container">
+      
       <Topbar />
       <Homeintro />
       <About />
       <Projects />
-      <hr id="line" />
+      <hr className="col-lg-12" id="line" />
       <Contact />
-      <div id="credits">@2022 Manivasagam</div>
+      <div className="col-lg-12" id="credits">@2022 Manivasagam</div>
     </div>
+    
   );
 }
 
