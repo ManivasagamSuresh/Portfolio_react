@@ -154,8 +154,9 @@ nav li a:hover::after{
   left: 10px;
   margin-right: 30px;
 }
-.homeicons:hover{
-  transform: scale(1.5);
+.homeicons a :hover{
+  transition: 1s;
+  transform: scale(1.05);
 }
 
 .boxintro{

@@ -14,7 +14,7 @@ import git from "./images/git.svg";
 function About() {
   let [edu, setEdu] = useState(true);
   let [exp, setExp] = useState(false);
-  let [Skill, setSkill] = useState(false);
+  let [Skill, setSkill] = useState(true);
   let opentab = (i) => {
     if (i == "Education") {
       setEdu(true);
@@ -46,22 +46,15 @@ function About() {
       
         <div className="about col-lg-12">
           <div className="tab-titles">
-            <p
+            {/* <p
               className={`tab-links ${edu ? "active-link" : ""}`}
               onClick={() => {
                 opentab("Education");
               }}
             >
               Education
-            </p>
-            <p
-              className={`tab-links ${exp ? "active-link" : ""}`}
-              onClick={() => {
-                opentab("Experience");
-              }}
-            >
-              Experience
-            </p>
+            </p> */}
+            
             <p
               className={`tab-links ${Skill ? "active-link" : ""}`}
               onClick={() => {
@@ -69,6 +62,15 @@ function About() {
               }}
             >
               Skills
+            </p>
+
+            <p
+              className={`tab-links ${exp ? "active-link" : ""}`}
+              onClick={() => {
+                opentab("Experience");
+              }}
+            >
+              Experience
             </p>
           </div>
         </div>
@@ -159,7 +161,7 @@ function About() {
 
       {/* ////////////////////////////////////////////////////////// */}
       
-        <div
+        {/* <div
           className={`col-lg-12 tab-contents  ${edu ? "active-tab" : ""}`}
           id="Education"
         >
@@ -180,7 +182,7 @@ function About() {
               PSG College of Technology,Coimbatore.
             </li>
           </ul>
-        </div>
+        </div> */}
       
 
       {/* //////////////////////////////////////////////////// */}

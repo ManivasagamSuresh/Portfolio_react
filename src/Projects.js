@@ -15,9 +15,9 @@ function Projects() {
       <div  className="card" style={{width: "18rem"}}>
         <img src={img} className="card-img-top" alt="..."/>
         <div className="card-body">
-          <h5 className="card-title">Brewaries</h5>
-          <p className="card-text">To display the brewaries list of searched state with its address and URL</p>
-          <a href="https://lambent-unicorn-b71d41.netlify.app" target="_blank" className="btn btn-outline-warning">Check Out</a>
+          <h5 className="card-title">YouTube Clone</h5>
+          <p className="card-text">users can Sign-up ,Sign-in ,subscribe a channel. View , like ,dislike and add comments to the video</p>
+          <a href="https://jocular-vacherin-dcbf9f.netlify.app" target="_blank" className="btn btn-outline-warning">Check Out</a>
         </div>
       </div>
       </div>
@@ -26,9 +26,9 @@ function Projects() {
       <div className="card" style={{width: "18rem"}}>
         <img src={img} className="card-img-top" alt="..."/>
         <div className="card-body">
-          <h5 className="card-title">Wild Animals</h5>
-          <p className="card-text">To display the random wild animal name and age with its image while refresh the page</p>
-          <a href="https://unrivaled-toffee-e10c83.netlify.app" target="_blank" className="btn btn-outline-warning">Check Out</a>
+          <h5 className="card-title">Chat-App</h5>
+          <p className="card-text">Users can Login with their G-mail, create a chat box and send messages in the chat box</p>
+          <a href="https://capable-gelato-a223ec.netlify.app" target="_blank" className="btn btn-outline-warning">Check Out</a>
         </div>
       </div>
       </div>
