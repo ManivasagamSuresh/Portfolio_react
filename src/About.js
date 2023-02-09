@@ -13,8 +13,8 @@ import git from "./images/git.svg";
 
 function About() {
   let [edu, setEdu] = useState(true);
-  let [exp, setExp] = useState(false);
-  let [Skill, setSkill] = useState(true);
+  let [exp, setExp] = useState(true);
+  let [Skill, setSkill] = useState(false);
   let opentab = (i) => {
     if (i == "Education") {
       setEdu(true);
@@ -55,14 +55,7 @@ function About() {
               Education
             </p> */}
             
-            <p
-              className={`tab-links ${Skill ? "active-link" : ""}`}
-              onClick={() => {
-                opentab("skills");
-              }}
-            >
-              Skills
-            </p>
+            
 
             <p
               className={`tab-links ${exp ? "active-link" : ""}`}
@@ -71,6 +64,15 @@ function About() {
               }}
             >
               Experience
+            </p>
+
+            <p
+              className={`tab-links ${Skill ? "active-link" : ""}`}
+              onClick={() => {
+                opentab("skills");
+              }}
+            >
+              Skills
             </p>
           </div>
         </div>

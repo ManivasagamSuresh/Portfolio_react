@@ -17,7 +17,7 @@ const formik = useFormik({
   onSubmit:async(values)=>{
     try {
       
-      const send = await axios.post('http://localhost:5000/sendmail',values);
+      const send = await axios.post('https://portfolio-zw7l.onrender.com/sendmail',values);
     console.log(send.data);
       formik.resetForm();
       setmail(true);
