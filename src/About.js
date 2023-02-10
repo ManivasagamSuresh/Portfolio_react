@@ -39,7 +39,7 @@ function About() {
       <h1 className="display-4">About</h1>
       <p className="about-info ">
         I am a self-learner, curious and enthusiastic in learning new things.
-        Seeking a perfect role to enhance and explore my technical knowledge in
+        Seeking a perfect role to enhance my technical knowledge in
         full stack development.
       </p>
       
