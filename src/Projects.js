@@ -1,5 +1,6 @@
 import React from 'react'
 import img from './images/Projects-yellow.jpg'
+import Projectcard from './Projectcard'
 
 function Projects() {
   return (
@@ -9,8 +10,14 @@ function Projects() {
     
     <div className="col-lg-12">
       <h1 className="projects-heading display-3">Projects</h1>
-      <h4 className="projects-des">What I Built</h4>
+      <h2 className="projects-des">What I Built</h2>
     </div>
+
+
+    <Projectcard/>
+
+
+{/*     
     <div className="col-lg-4">
       <div  className="card" style={{width: "18rem"}}>
         <img src={img} className="card-img-top" alt="..."/>
@@ -42,7 +49,7 @@ function Projects() {
           <a href="https://preeminent-frangipane-88b7b3.netlify.app" target="_blank" className="btn btn-outline-warning">Check Out</a>
         </div>
       </div>
-    </div>
+    </div> */}
   </div>
   
 

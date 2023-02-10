@@ -407,10 +407,25 @@ margin-right: 0px;
   margin-bottom: 50px;
   border-radius: 15px;
   overflow: hidden;
+  background-color: #C0C0C0;
 }
 #project{
   margin-top:340px;
   margin-bottom:100px;
+}
+.card-link{
+  margin: 10px 15px;
+  color:#080808;
+}
+.card-link:hover{
+  color: #af9439;
+  transform: scale(1.1);
+}
+.card-tech{
+  color:#af9439;
+}
+.card-title{
+  font-weight: bolder;
 }
 
 /* ----------------contact---------------------- */

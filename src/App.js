@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import { BsWindowSidebar } from "react-icons/bs";
+import Projectcard from "./Projectcard";
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
       <hr className="col-lg-12" id="line" />
       <Contact />
       <div className="col-lg-12" id="credits">@2022 Manivasagam</div>
+
     </div>
     
   );
