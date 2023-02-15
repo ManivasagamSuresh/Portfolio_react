@@ -32,7 +32,7 @@ const formik = useFormik({
   const sendEmail =async()=>{
     setTimeout(()=>{
         setmail(false);
-    },3000)
+    },1000)
   }
   return (
   <div className="row" id="contact">
