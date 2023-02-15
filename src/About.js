@@ -5,11 +5,16 @@ import js from "./images/JS.svg";
 import boot from "./images/bootstrap.svg";
 import rct from "./images/react.svg";
 import mongo from "./images/mongodb.svg";
-import node from "./images/nodejs.svg";
+// import node from "./images/nodejs.svg";
 import npm from "./images/npm.png";
+import node from "./images/node.jpg";
 import post from "./images/postman.png";
 import sql from "./images/mysql.svg";
-import git from "./images/git.svg";
+// import git from "./images/git.svg";
+import github from "./images/github.png"
+import redux from "./images/redux.svg"
+import firebase from "./images/firebase.png"
+import JWT from "./images/JWT.png"
 
 function About() {
   let [edu, setEdu] = useState(true);
@@ -108,7 +113,7 @@ function About() {
                 <span>React</span>
               </div>
               <div className="col-lg-3">
-                <img src={node} alt="" />
+                <img src={node} alt=""/>
                 <span>Node Js</span>
               </div>
               <div className="col-lg-3" id="mongoDB">
@@ -120,8 +125,8 @@ function About() {
                 <span>Redux</span>
               </div> */}
               <div className="col-lg-3">
-                <img src={sql} alt="" />
-                <span>My SQL</span>
+                <img src={redux} alt="" />
+                <span>Redux</span>
               </div>
             </div>
             <div className="gridicon3 row">
@@ -131,13 +136,17 @@ function About() {
                 <span>Postman</span>
               </div>
               <div className="col-lg-3">
-                <img src={npm} alt="" />
-                <span>NPM</span>
+                <img src={JWT} alt="" style={{width:"110px"}}  />
+                <span>JWT</span>
               </div>
-              {/* <div className="col-lg-3">
-                <img src={git} alt="" />
-                <span>Git</span>
-              </div> */}
+              <div className="col-lg-3">
+                <img src={github} alt="" />
+                <span>GitHub</span>
+              </div>
+              <div className="col-lg-3">
+                <img src={firebase} alt="" />
+                <span>Firebase</span>
+              </div>
             </div>
           </div>
         
