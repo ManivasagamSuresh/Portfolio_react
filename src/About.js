@@ -14,7 +14,7 @@ import sql from "./images/mysql.svg";
 import github from "./images/github.png"
 import redux from "./images/redux.svg"
 import firebase from "./images/firebase.png"
-import JWT from "./images/JWT.png"
+import JWT from "./images/JWT1.png"
 
 function About() {
   let [edu, setEdu] = useState(true);
@@ -91,33 +91,33 @@ function About() {
             <div className="row">
               
               <div className="col-lg-3 gridicon1 ">
-                <img src={html} alt="" />
+                <img src={html} alt="" style={{width:"80px"}}/>
                 <span>HTML</span>
               </div>
               <div className="col-lg-3 gridicon1 ">
-                <img src={js} alt="" id="jsicon" />
+                <img src={js} alt="" id="jsicon" style={{width:"80px"}}/>
                 <span>Java Script</span>
               </div>
               <div className="col-lg-3 gridicon1 ">
-                <img src={css} alt="" id="cssicon" />
+                <img src={css} alt="" id="cssicon" style={{width:"80px"}}/>
                 <span>CSS</span>
               </div>
               <div className="col-lg-3 gridicon1 ">
-                <img src={boot} alt="" id="bootstrapicon" />
+                <img src={boot} alt="" id="bootstrapicon" style={{width:"80px"}}/>
                 <span>BootStrap</span>
               </div>
             </div>
             <div className="gridicon2 row">
               <div className="col-lg-3">
-                <img src={rct} alt="" />
+                <img src={rct} alt="" style={{width:"80px"}}/>
                 <span>React</span>
               </div>
               <div className="col-lg-3">
-                <img src={node} alt=""/>
+                <img src={node} alt="" style={{width:"80px"}}/>
                 <span>Node Js</span>
               </div>
               <div className="col-lg-3" id="mongoDB">
-                <img src={mongo} alt="" />
+                <img src={mongo} alt="" style={{width:"80px"}}/>
                 <span>Mongo DB</span>
               </div>
               {/* <div className="col-lg-3">
@@ -125,26 +125,26 @@ function About() {
                 <span>Redux</span>
               </div> */}
               <div className="col-lg-3">
-                <img src={redux} alt="" />
+                <img src={redux} alt="" style={{width:"80px"}}/>
                 <span>Redux</span>
               </div>
             </div>
             <div className="gridicon3 row">
               
               <div className="col-lg-3">
-                <img src={post} alt="" />
+                <img src={post} alt="" style={{width:"80px"}}/>
                 <span>Postman</span>
               </div>
               <div className="col-lg-3">
-                <img src={JWT} alt="" style={{width:"110px"}}  />
+                <img src={JWT} alt="" style={{width:"100px"}}  />
                 <span>JWT</span>
               </div>
               <div className="col-lg-3">
-                <img src={github} alt="" />
+                <img src={github} alt="" style={{width:"80px"}}/>
                 <span>GitHub</span>
               </div>
               <div className="col-lg-3">
-                <img src={firebase} alt="" />
+                <img src={firebase} alt="" style={{width:"70px"}}/>
                 <span>Firebase</span>
               </div>
             </div>
