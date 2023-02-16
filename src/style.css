@@ -382,7 +382,7 @@ margin-right: 0px;
 }
 .tab-contents ul li span{
   color: #FFD700	;
-  font-size: 15px;
+  font-size: 14px;
 }
 .tab-contents{
   display: none;
@@ -402,6 +402,7 @@ margin-right: 0px;
 .card-body{
   color: #080808;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 .card{
   margin-bottom: 50px;

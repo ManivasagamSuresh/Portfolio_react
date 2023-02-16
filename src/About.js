@@ -152,9 +152,10 @@ function About() {
         
         <div className="row">
           <div className="col-lg-6 softskills">
-            <h4>Soft Skills :</h4>
+            <h4>Professional Skills :</h4>
             <ul style={{ listStyleType: "disc" }}>
               <li>Time Management</li>
+              <li>Program Management</li>
               <li>Adaptability</li>
               <li>Team Work</li>
             </ul>
@@ -203,15 +204,25 @@ function About() {
         >
           <ul>
             <li>
-              <span>Dec'21-July'22</span>
-              <br />
-              GET-Program Management ,Violin Technologies,Chennai
+            <span>Dec'21-July'22</span> <br/>
+              GET-Program Management ,Violin Technologies,Chennai 
+            <br/>
+              <ul style={{listStyleType:"rounded",color:"#C0C0C0"}} >
+              <li style={{color:"#C0C0C0",fontSize:"14px"}}>Supply chain management</li>
+              <li style={{color:"#C0C0C0",fontSize:"14px"}}>Customer Relationship management</li>    
+              </ul>
+              
             </li>
             <li>
-              <span>Dec'20-june'21</span>
-              <br />
+            <span>Dec'20-june'21</span><br/>
               Bussiness Development Associate ,Think & Learn Private
               Ltd,Coimbatore
+              <br />
+              <ul>
+              <li style={{color:"#C0C0C0",fontSize:"14px"}}>Cold Calling</li>
+              <li style={{color:"#C0C0C0",fontSize:"14px"}}>Virtual and Direct sales</li>
+              
+              </ul>
             </li>
           </ul>
         </div>
