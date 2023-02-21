@@ -175,9 +175,11 @@ nav li a:hover::after{
 #home-intro{
   padding-top:100px;
 }
-.indexi1{
-  /*  */
-}
+ @media screen and (max-width: 900px) {
+    .indexi2{
+      display: none;
+    }
+ }
 
 
 /* ------------------about----------------- */
@@ -415,8 +417,14 @@ margin-right: 0px;
   margin-bottom:100px;
 }
 .card-link{
-  margin: 10px 15px;
+  margin: 10px 10px;
   color:#080808;
+  text-decoration: none;
+}
+.projectcard-icons{
+  display: flex;
+  flex-flow: row wrap;
+  
 }
 .card-link:hover{
   color: #af9439;
@@ -428,7 +436,10 @@ margin-right: 0px;
 .card-title{
   font-weight: bolder;
 }
-
+.giticon{
+  margin-right: 5px;
+  cursor: pointer;
+}
 /* ----------------contact---------------------- */
 
 #line{
