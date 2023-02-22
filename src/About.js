@@ -185,17 +185,17 @@ function About() {
             <li>
               <span>SSLC: 96.6%</span>
               <br />
-              AKNU S.Sundar Matric Hr.sec School,Madurai.
+              AKNU S.Sundar Matric Hr.sec School, Madurai.
             </li>
             <li>
               <span>HSC: 93.5%</span>
               <br />
-              CEOA Matric Hr.sec School,Madurai.
+              CEOA Matric Hr.sec School, Madurai.
             </li>
             <li>
               <span>BE(Automobile): 7.1 cgpa</span>
               <br />
-              PSG College of Technology,Coimbatore.
+              PSG College of Technology, Coimbatore.
             </li>
           </ul>
         </div>
@@ -209,7 +209,7 @@ function About() {
           <ul>
             <li>
             <span>Dec'21-July'22</span> <br/>
-              GET-Program Management ,Violin Technologies,Chennai 
+              GET-Program Management-Violin Technologies, Chennai 
             <br/>
               <ul style={{listStyleType:"rounded",color:"#C0C0C0"}} >
               <li style={{color:"#C0C0C0",fontSize:"14px"}}>Supply chain management</li>
@@ -219,8 +219,8 @@ function About() {
             </li>
             <li>
             <span>Dec'20-june'21</span><br/>
-              Bussiness Development Associate ,Think & Learn Private
-              Ltd,Coimbatore
+              Bussiness Development Associate - Think & Learn Private
+              Ltd (byjus), Coimbatore
               <br />
               <ul>
               <li style={{color:"#C0C0C0",fontSize:"14px"}}>Cold Calling</li>
