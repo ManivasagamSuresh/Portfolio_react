@@ -15,7 +15,7 @@ function Homeintro() {
         <div className="homeicons" style={{marginTop: "20px",width:"20px"}} ><a href="https://github.com/ManivasagamSuresh" style={{color: "#fff"}} target="_blank"><AiOutlineGithub size={"3em"}/></a></div>
         <div className="homeicons" style={{marginTop: "20px"}}><a href="https://www.linkedin.com/in/manivasagam-s-3534bb157/" style={{color: '#0077b5'}} target="_blank"><BsLinkedin size={"3em"}/></a></div>
         <br/>
-        <a href= "manivasagam-resume.pdf" download  target="_blank"><button className="btn btn-outline-warning" id="resumedownload">Download CV</button></a>  
+        <a href= "https://drive.google.com/file/d/1na2_97_oxz4qlftcG4RDQUb7zj-8O3k1/view?usp=share_link"  target="_blank"><button className="btn btn-outline-warning" id="resumedownload">Download CV</button></a>  
       </div>
       </div>
       <div className="col-lg-6 indexi2" >

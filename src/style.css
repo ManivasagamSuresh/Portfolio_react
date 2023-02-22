@@ -30,13 +30,13 @@
   nav li{
     display:inline-block;
     list-style: none;
-    margin:10px 35px ;
+    margin:10px 25px ;
     
 }
 nav li a{
     color: #fff;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 22px !important;
     position: relative;
 }
 
@@ -185,9 +185,18 @@ nav li a:hover::after{
 /* ------------------about----------------- */
 
 #about{
-  margin-top: 220px;
+  margin-top: 100px;
 }
 #about h1{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 40px;
+  color:#C0C0C0;
+}
+#skill{
+  margin-top: 100px ;
+}
+#skill h1{
   margin-top: 40px;
   text-align: center;
   font-size: 40px;
@@ -228,8 +237,9 @@ margin:20px 0px 0px 30px;
 }
 
 .gridicon1 img{
-  width: 6vw;
+  
   margin-bottom: 2.5em;
+  margin-left: 10px;
 }
 .gridicon1 span{
   color :#C0C0C0;
@@ -244,6 +254,14 @@ margin:20px 0px 0px 30px;
   
    
 }
+#row1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: space-around ;
+}
 
 
 
@@ -257,9 +275,20 @@ margin:20px 0px 0px 30px;
     
    }
   }
+
   
+  #row2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    
+    align-items: center;
+    justify-content: space-around ;
+  }
+
   .gridicon2 {
-    /* width: 85vw;  */
+    
     margin-bottom: 50px; 
     margin-top: 25px;
     transition: 1s;
@@ -275,16 +304,10 @@ margin:20px 0px 0px 30px;
     color :#C0C0C0;
     margin-left: 1em;
   }
-  .gridicon2 #mongoDB span{
-    margin-left: 0.5em;
-   
-  }  
-  .gridicon2#mongoDB{
-    margin-right: 6vw;
-  }
+    
 .gridicon2 div{
   display: inline;
-  /* margin-right: 6vw; */
+  
   margin-top: 25px;
   transition: 1s;
    
@@ -304,6 +327,16 @@ margin:20px 0px 0px 30px;
      }
 
 
+     #row3{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      flex: 1;
+      /* width: 100vw; */
+      align-items: center;
+      justify-content: space-around ;
+    }
+
      .gridicon3{
       /* width: 85vw;  */
       margin-bottom: 70px; 
@@ -312,8 +345,9 @@ margin:20px 0px 0px 30px;
   animation: icon3 3s linear 1;
   
      }
+     
      .gridicon3 img{
-      width: 6vw;
+      /* width: 6vw; */
       margin-bottom: 1.5em;
     }
      .gridicon3 span{
@@ -397,23 +431,27 @@ margin-right: 0px;
 .projects-heading{
   text-align: center;
   color:#C0C0C0 ;
+  margin-top: 30px;
 }
 .projects-des{
   margin:40px ;
 }
 .card-body{
-  color: #080808;
-  font-family: Arial, Helvetica, sans-serif;
   
+  display: flex;
+  flex-wrap: wrap;
 }
 .card{
   margin-bottom: 50px;
   border-radius: 15px;
   overflow: hidden;
   background-color: #C0C0C0;
+  color: #080808;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 #project{
-  margin-top:340px;
+  margin-top:120px;
   margin-bottom:100px;
 }
 .card-link{
@@ -439,6 +477,13 @@ margin-right: 0px;
 .giticon{
   margin-right: 5px;
   cursor: pointer;
+}
+
+.card-d{
+  flex: 7;
+}
+.card-i{
+flex: 1;
 }
 /* ----------------contact---------------------- */
 
@@ -498,12 +543,5 @@ margin-right: 0px;
 
 }
 
-/* #preloader {
-  background: #000 url("images/loader1.gif") no-repeat center;
-  height: 100vh;
-  width: 100%;
-  position:fixed;
-  z-index: 100;  
-  transition:2s;
-} */
+
 

@@ -10,6 +10,7 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import { BsWindowSidebar } from "react-icons/bs";
 import Projectcard from "./Projectcard";
+import Skills from "./Skills";
 
 function App() {
  
@@ -18,6 +19,7 @@ function App() {
       <Topbar />
       <Homeintro />
       <About />
+      <Skills/>
       <Projects />
       <hr className="col-lg-12" id="line" />
       <Contact />

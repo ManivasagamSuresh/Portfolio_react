@@ -17,7 +17,7 @@ import firebase from "./images/firebase.png"
 import JWT from "./images/JWT1.png"
 
 function About() {
-  let [edu, setEdu] = useState(true);
+  let [edu, setEdu] = useState(false);
   let [exp, setExp] = useState(true);
   let [Skill, setSkill] = useState(false);
   let opentab = (i) => {
@@ -41,7 +41,7 @@ function About() {
     <div id="about">
       <div className="row">
       <div className="col-lg-12">
-      <h1 className="display-4">About</h1>
+      <h1 className="display-4">ABOUT</h1>
       <p className="about-info ">
         I am a self-learner, curious and enthusiastic in learning new things.
         Seeking a perfect role to enhance my technical knowledge in
@@ -51,18 +51,8 @@ function About() {
       
         <div className="about col-lg-12">
           <div className="tab-titles">
-            {/* <p
-              className={`tab-links ${edu ? "active-link" : ""}`}
-              onClick={() => {
-                opentab("Education");
-              }}
-            >
-              Education
-            </p> */}
             
-            
-
-            <p
+          <p
               className={`tab-links ${exp ? "active-link" : ""}`}
               onClick={() => {
                 opentab("Experience");
@@ -70,15 +60,29 @@ function About() {
             >
               Experience
             </p>
-
+            
+            
             <p
+              className={`tab-links ${edu ? "active-link" : ""}`}
+              onClick={() => {
+                opentab("Education");
+              }}
+            >
+              Education
+            </p>
+            
+            
+
+            
+
+            {/* <p
               className={`tab-links ${Skill ? "active-link" : ""}`}
               onClick={() => {
                 opentab("skills");
               }}
             >
               Skills
-            </p>
+            </p> */}
           </div>
         </div>
       
@@ -173,7 +177,7 @@ function About() {
 
       {/* ////////////////////////////////////////////////////////// */}
       
-        {/* <div
+        <div
           className={`col-lg-12 tab-contents  ${edu ? "active-tab" : ""}`}
           id="Education"
         >
@@ -194,7 +198,7 @@ function About() {
               PSG College of Technology,Coimbatore.
             </li>
           </ul>
-        </div> */}
+        </div>
       
 
       {/* //////////////////////////////////////////////////// */}

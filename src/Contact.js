@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import { AiOutlineGithub } from 'react-icons/ai';
 import { BsLinkedin } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
+import { IoIosSend } from 'react-icons/io';
 
 
 function Contact() {
@@ -53,7 +54,7 @@ const formik = useFormik({
         <input type="text"  placeholder='Name*' required value={formik.values.name} name="name" onChange={formik.handleChange}/><br/>
         <input type="email" placeholder="Email*" required value={formik.values.email} name="email" onChange={formik.handleChange}/><br/>
         <textarea  id="" cols="50" rows="7" placeholder="Your Message*" required value={formik.values.message} name="message" onChange={formik.handleChange}></textarea><br/>
-        <button type="submit" className="submit" >Send  <i className="fa fa-paper-plane" aria-hidden="true" style={{color:"#fff"}}></i></button>
+        <button type="submit" className="submit" >Send <IoIosSend/> <i className="fa fa-paper-plane" aria-hidden="true" style={{color:"#fff"}}></i></button>
       </form> 
     <br/>
     {mail&&<span id="msg">Mail Sent Successfully !</span>}

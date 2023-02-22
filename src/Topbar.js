@@ -15,6 +15,7 @@ function Topbar() {
       <div className="navbar-nav">
       <li className="nav-item"><a id="link1" href="#home" style={{textDecoration: "none",fontSize:"25px"}} className="nav-link">Home</a></li> 
         <li className="nav-item"><a id="link2" href="#about" style={{textDecoration: "none",fontSize:"25px"}} className="nav-link">About</a></li>
+        <li className="nav-item"><a id="link3" href="#skill" style={{textDecoration: "none",fontSize:"25px"}} className="nav-link">Skills</a></li>
         <li className="nav-item"><a id="link4" href="#project" style={{textDecoration: "none",fontSize:"25px"}} className="nav-link">Projects</a></li>
         <li className="nav-item"><a id="link5" href="#contact" style={{textDecoration: "none",fontSize:"25px"}} className="nav-link">Contact</a></li>        
       </div>
