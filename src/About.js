@@ -219,7 +219,7 @@ function About() {
             </li>
             <li>
             <span>Dec'21 - July'22</span> <br/>
-              GET-Program Management-Violin Technologies, Chennai 
+              GET-Program Management - Violin Technologies, Chennai 
             <br/>
               <ul style={{listStyleType:"rounded",color:"#C0C0C0"}} >
               <li style={{color:"#C0C0C0",fontSize:"14px"}}>Supply chain management</li>
