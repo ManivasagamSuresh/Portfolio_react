@@ -18,7 +18,7 @@
   }
   
   /* ------------------------navigation bar-------------------------------- */
-  .containernav{
+  /* .containernav{
     padding:10px 35px;
     display: flex;
     flex-wrap: wrap;
@@ -66,11 +66,11 @@ nav li a:hover{
 html{
   scroll-behavior: smooth;
   
-}
+} */
 
 /* -----------------------hover animation for nav-------------------------- */
 
-nav li a::after{
+/* nav li a::after{
     content:"";
     width: 0;
     height: 3px;
@@ -84,11 +84,11 @@ nav li a::after{
 nav li a:hover::after{
     width:100%;
 
-}
+} */
 
 /* --------------------intro info----------------- */
 
-    #home-intro{
+    /* #home-intro{
       position: relative;
       
       
@@ -111,19 +111,19 @@ nav li a:hover::after{
     #resumedownload:hover{
       color: #fff;
       transform:scale(1.1)
-    }
+    } */
 
 /* --------------------fullstack animation--------------------------- */
 
-    .animate-character{
+    /* .animate-character{
         color: #fff;
         font-size: 20px;
         font-weight: bolder;
         font-family:Arial, Helvetica, sans-serif;
         position: relative;
-        /* width:200px; */
+        width:200px;
         z-index: -1;
-    }
+    
     .animate-character::after{
       content:"";
       position: absolute;
@@ -142,12 +142,12 @@ nav li a:hover::after{
     transform: translateX(280px);
   }
 }
-
+ */
 
 /* -------------------homeicons----------------- */
 
 
-.homeicons{ 
+/* .homeicons{ 
   display: inline;
   position: relative;
   top: 30px;
@@ -180,7 +180,7 @@ nav li a:hover::after{
       display: none;
     }
  }
-
+ */
 
 /* ------------------about----------------- */
 
@@ -226,8 +226,8 @@ margin:20px 0px 0px 30px;
 
 /* ---------------tecnology icons and its animation---------------------- */
 
-.gridicon1{
- /* width: 85vw;  */
+/* .gridicon1{
+ width: 85vw; 
   margin-bottom: 50px; 
   margin-top: 25px;
   transition: 1s;
@@ -248,7 +248,7 @@ margin:20px 0px 0px 30px;
 
 .gridicon1 div{
   display: inline;
-  /* margin-right: 6vw; */
+  margin-right: 6vw;
   margin-top: 25px;
   transition: 1s;
   
@@ -332,13 +332,13 @@ margin:20px 0px 0px 30px;
       flex-direction: row;
       flex-wrap: wrap;
       flex: 1;
-      /* width: 100vw; */
+      width: 100vw;
       align-items: center;
       justify-content: space-around ;
     }
 
      .gridicon3{
-      /* width: 85vw;  */
+      width: 85vw; 
       margin-bottom: 70px; 
   margin-top: 25px;
   transition: 1s;
@@ -347,7 +347,7 @@ margin:20px 0px 0px 30px;
      }
      
      .gridicon3 img{
-      /* width: 6vw; */
+      width: 6vw;
       margin-bottom: 1.5em;
     }
      .gridicon3 span{
@@ -358,7 +358,7 @@ margin:20px 0px 0px 30px;
      
 .gridicon3 div{
   display: inline;
-  /* margin-right: 6vw; */
+  margin-right: 6vw;
   margin-top: 25px;
   transition: 1s;
    
@@ -378,12 +378,53 @@ margin:20px 0px 0px 30px;
        }
 
 
+      
+       .gridicon4{
+        width: 85vw; 
+        margin-bottom: 70px; 
+    margin-top: 25px;
+    transition: 1s;
+    animation: icon4 4s linear 1;
+   
+    
+       }
+       
+       .gridicon4 img{
+        width: 6vw;
+        margin-bottom: 1.5em;
+      }
+       .gridicon4 span{
+        color :#C0C0C0;
+        margin-left: 1em;
+      }    
+       
+       
+  .gridicon4 div{
+    display: inline;
+    margin-right: 6vw;
+    margin-top: 25px;
+    transition: 1s;
+     
+  }
+  
+        
+       
+       @keyframes icon4{
+         
+         from{
+           transform: translateY(100vh);
+          }
+          to{
+           transform:translateY(-10px);
+           
+          }
+         } */
 
 
   
 /* ------------------tab------------------------ */
 
-.tab-titles{
+/* .tab-titles{
   display: flex;
   margin: 20px 0 40px;
   color:#C0C0C0
@@ -425,10 +466,10 @@ margin-right: 0px;
 }
 .tab-contents.active-tab{
   display: block;
-}
+} */
 
 /* -------------------projects--------------- */
-.projects-heading{
+/* .projects-heading{
   text-align: center;
   color:#C0C0C0 ;
   margin-top: 30px;
@@ -484,10 +525,10 @@ margin-right: 0px;
 }
 .card-i{
 flex: 1;
-}
+} */
 /* ----------------contact---------------------- */
 
-#line{
+/* #line{
   background: #FFc40a;
   height: 1px;
   opacity: 0.3;
@@ -531,7 +572,7 @@ flex: 1;
 
 #msg{
   color: #af9439;
-}
+} */
 
 
 /* -----------------credits--------------- */

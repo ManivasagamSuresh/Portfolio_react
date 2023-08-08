@@ -1,0 +1,70 @@
+.containernav{
+    padding:10px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background: #080808;
+    
+  }
+ 
+  nav li{
+    display:inline-block;
+    list-style: none;
+    margin:10px 25px ;
+    
+}
+nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px !important;
+    position: relative;
+}
+
+nav li a:hover{
+    color:#fff ;
+}
+#navbut {
+  background-color: #FFc40a;
+  color: #080808;
+}
+#link1{
+  color: #C0C0C0;
+}
+#link2{
+  color: #C0C0C0;
+}
+#link3{
+  color: #C0C0C0;
+}
+#link4{
+  color: #C0C0C0;
+}
+#link5{
+  color: #C0C0C0;
+}
+
+html{
+  scroll-behavior: smooth;
+  
+}
+
+
+
+/* Animatiom */
+
+
+nav li a::after{
+  content:"";
+  width: 0;
+  height: 3px;
+  background:#FFc40a ;
+  position: absolute;
+  left:0;
+  bottom:-6px;
+  transition: 0.5s;
+}
+
+nav li a:hover::after{
+  width:100%;
+
+}

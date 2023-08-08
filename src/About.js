@@ -15,6 +15,7 @@ import github from "./images/github.png"
 import redux from "./images/redux.svg"
 import firebase from "./images/firebase.png"
 import JWT from "./images/JWT1.png"
+import nextjs from "./images/nextjs.png"
 
 function About() {
   let [edu, setEdu] = useState(false);
@@ -87,26 +88,28 @@ function About() {
         </div>
       
 
-      <div className={`tab-contents  ${Skill ? "active-tab" : ""}`} id="skills">
-        
-          <div className="col-lg-12">
+      <div className={`col-lg-12 tab-contents  ${Skill ? "active-tab" : ""}`} id="skills">
+        {/* //////////////////////////////////////////////////////////////////////// */}
+         
             <h4 className="Tech">Technologies and Tools :</h4>
 
-            <div className="row">
+            <div className="row gridicon1 ">
               
-              <div className="col-lg-3 gridicon1 ">
+              <div className="col-lg-3 ">
                 <img src={html} alt="" style={{width:"80px"}}/>
                 <span>HTML</span>
               </div>
-              <div className="col-lg-3 gridicon1 ">
+              <div className="col-lg-3 ">
                 <img src={js} alt="" id="jsicon" style={{width:"80px"}}/>
-                <span>Java Script</span>
+                <span>Java Scrip
+                  
+                </span>
               </div>
-              <div className="col-lg-3 gridicon1 ">
+              <div className="col-lg-3">
                 <img src={css} alt="" id="cssicon" style={{width:"80px"}}/>
                 <span>CSS</span>
               </div>
-              <div className="col-lg-3 gridicon1 ">
+              <div className="col-lg-3">
                 <img src={boot} alt="" id="bootstrapicon" style={{width:"80px"}}/>
                 <span>BootStrap</span>
               </div>
@@ -152,8 +155,16 @@ function About() {
                 <span>Firebase</span>
               </div>
             </div>
-          </div>
+            <div className="row gridicon4">
+              
+              <div className="col-lg-3">
+                <img src={nextjs} alt="" style={{width:"80px"}}/>
+                <span>nextjs</span>
+              </div>
+             
+            </div>
         
+           {/* //////////////////////////////////////////////////////////////////////// */}
         <div className="row">
           <div className="col-lg-6 softskills">
             <h4>Professional Skills :</h4>
@@ -177,10 +188,7 @@ function About() {
 
       {/* ////////////////////////////////////////////////////////// */}
       
-        <div
-          className={`col-lg-12 tab-contents  ${edu ? "active-tab" : ""}`}
-          id="Education"
-        >
+        <div className={`col-lg-12 tab-contents  ${edu ? "active-tab" : ""}`} id="Education">
           <ul>
             <li>
               <span>SSLC: 96.6%</span>
@@ -202,10 +210,7 @@ function About() {
       
 
       {/* //////////////////////////////////////////////////// */}
-        <div
-          className={`col-lg-12 tab-contents  ${exp ? "active-tab" : ""}`}
-          id="Experience"
-        >
+        <div className={`col-lg-12 tab-contents  ${exp ? "active-tab" : ""}`} id="Experience">
           <ul>
           <li>
             <span>May'23 - June'23</span> <br/>

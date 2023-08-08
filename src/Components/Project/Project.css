@@ -1,0 +1,71 @@
+.projects-heading{
+  text-align: center;
+  color:#C0C0C0 ;
+  margin-top: 30px;
+}
+.projects-des{
+  margin:40px ;
+}
+.card-body{
+  
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+.card{
+  margin-bottom: 50px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #C0C0C0;
+  color: #080808;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+#project{
+  margin-top:120px;
+  margin-bottom:100px;
+}
+.card-link{
+  margin: 10px 10px;
+  color:#080808;
+  text-decoration: none;
+}
+.projectcard-icons{
+  display: flex;
+  flex-flow: row wrap;
+  
+}
+.card-link:hover{
+  color: #af9439;
+  transform: scale(1.1);
+}
+.card-tech{
+  color:#af9439;
+}
+.card-title{
+  font-weight: bolder;
+}
+.giticon{
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.card-d{
+  flex: 7;
+}
+.card-i{
+flex: 1;
+}
+.project-img{
+  width: 340px;
+  height: 200px;
+  margin: 20px;
+
+}
+
+@media screen and (max-width:700px) {
+    .project-img{
+      width: 250px;
+      height: 170px;
+    }
+}
