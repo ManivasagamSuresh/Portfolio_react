@@ -1,7 +1,14 @@
 .App {
   text-align: center;
 }
+.container{
 
+}
+@media screen and (max-width:700px) {
+  .container{
+    max-width: fit-content;
+  }
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

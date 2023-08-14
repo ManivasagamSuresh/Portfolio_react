@@ -4,6 +4,7 @@ import { FiGithub } from 'react-icons/fi';
 import { VscGithub } from 'react-icons/vsc';
 import myntra from "../../images/myntra.png"
 import youtube from "../../images/youtube.png"
+import tournament from "../../images/tournament.png"
 import chat from "../../images/chat.png"
 import catalog from "../../images/item.png"
 
@@ -57,6 +58,29 @@ function Projectcard() {
           <img className="project-img" src={youtube} alt="" />
         </div>
          
+        </div>
+      </div>
+      </div>
+
+
+
+      <div className="col-lg-12">
+      <div  className="card" >
+        
+        <div className="card-body">
+        <div className='card-d'>
+          <h2 className="card-title">Tournament System App</h2>
+          <p className="card-text">Users can Login and join their favorite tournament, cancel and edit their registration. Admin can create, edit and delete the tournaments.</p>
+          <p><span className='card-tech'>Technologies and libraries used </span> : React.js, Node.js, MongoDB, TailwindCSS, Redux Toolkit</p>
+          <div className='projectcard-icons'>
+          <a className="card-link" href="https://steady-shortbread-751776.netlify.app/" target="_blank"><BiLinkExternal size={"1.5em"} className="giticon"/>View Project</a>
+          <a className="card-link" href="https://github.com/ManivasagamSuresh/indiggFrontend" target="_blank"><FiGithub size={"1.5em"}className="giticon"/>Front-End</a>
+          <a className="card-link" href="https://github.com/ManivasagamSuresh/indiggBackend" target="_blank"><VscGithub size={"1.5em"} className="giticon"/>Back-End</a>
+          </div>
+          </div>
+          <div className='card-i'>
+          <img className="project-img" src={tournament} alt="" />
+        </div>
         </div>
       </div>
       </div>
