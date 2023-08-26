@@ -47,10 +47,10 @@ function Projectcard() {
          <div className='card-d'>
           <h2 className="card-title">YouTube Clone</h2>
           <p className="card-text">Users can Sign-up, Sign-in with Email id. Secured with  JSON web token Authentication. Allows users to view, like, dislike,  add comments to the video, subscribe a channel, and post a video.</p>
-          <p><span className='card-tech'>Technologies and libraries used </span> : React.js, Node.js, MongoDB, JWT, Redux Toolkit, sockt.io, Firebase</p>
+          <p><span className='card-tech'>Technologies and libraries used </span> : React.js, Node.js, MongoDB,Tailwind CSS, JWT, Redux Toolkit, sockt.io, Firebase</p>
           <div className='projectcard-icons'>
-          <a className="card-link" href="https://jocular-vacherin-dcbf9f.netlify.app" target="_blank"><BiLinkExternal size={"1.5em"} className="giticon"/>View Project</a>
-          <a className="card-link" href="https://github.com/ManivasagamSuresh/Youtube-Clone-FrontEnd" target="_blank"><FiGithub size={"1.5em"} className="giticon"/>Front-End</a>
+          <a className="card-link" href="https://cheerful-valkyrie-754245.netlify.app" target="_blank"><BiLinkExternal size={"1.5em"} className="giticon"/>View Project</a>
+          <a className="card-link" href="https://github.com/ManivasagamSuresh/Youtube_frontend_tailwind" target="_blank"><FiGithub size={"1.5em"} className="giticon"/>Front-End</a>
           <a className="card-link" href="https://github.com/ManivasagamSuresh/YoutubeClone-Backend" target="_blank"><VscGithub size={"1.5em"} className="giticon"/>Back-End</a>  
           </div >
          </div>
