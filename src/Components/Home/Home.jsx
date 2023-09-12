@@ -17,7 +17,7 @@ function Home() {
         <div className="homeicons" style={{marginTop: "20px",width:"20px"}} ><a href="https://github.com/ManivasagamSuresh" style={{color: "#fff"}} target="_blank"><AiOutlineGithub size={"3em"}/></a></div>
         <div className="homeicons" style={{marginTop: "20px"}}><a href="https://www.linkedin.com/in/manivasagam-s-3534bb157/" style={{color: '#0077b5'}} target="_blank"><BsLinkedin size={"3em"}/></a></div>
         <br/>
-        <a href= "https://drive.google.com/file/d/1-r0H5LYWojz4F5i6CCny7JkSGflS8wiX/view?usp=sharing"  target="_blank"><button className="btn btn-outline-warning" id="resumedownload">Check out My Resume <BsArrowRight size={"1.5em"}/></button></a>  
+        <a href= "https://drive.google.com/file/d/1YfZowMb4Mg3Qg7q09koj0vbEIYnb0Bgx/view?usp=sharing"  target="_blank"><button className="btn btn-outline-warning" id="resumedownload">Check out My Resume <BsArrowRight size={"1.5em"}/></button></a>  
       </div>
       </div>
       <div className="col-lg-6 indexi2" >
