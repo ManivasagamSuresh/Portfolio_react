@@ -22,7 +22,7 @@ function Projectcard() {
         
         <div className="card-body">
           <div className="card-d">
-          <h2 className="card-title">Myntra Clone</h2>
+          <h2 className="card-title">Fashion E-Commerce Website</h2>
           <p className="card-text">Users can Sign-up, Sign-in with Email id. Secured with  JSON web token Authentication. Allows users to view, wishlist, move products to cart and buy the products with help of Razor pay payment gateway.</p>
           <p><span className='card-tech'>Technologies and libraries used </span> :  React.js, Node.js, MongoDB, JWT, Redux Toolkit, Razor pay, Bootstrap</p>
           <div className='projectcard-icons'>
@@ -45,7 +45,7 @@ function Projectcard() {
         
         <div className="card-body">
          <div className='card-d'>
-          <h2 className="card-title">YouTube Clone</h2>
+          <h2 className="card-title">Video Sharing - Social Media Platform</h2>
           <p className="card-text">Users can Sign-up, Sign-in with Email id. Secured with  JSON web token Authentication. Allows users to view, like, dislike,  add comments to the video, subscribe a channel, and post a video.</p>
           <p><span className='card-tech'>Technologies and libraries used </span> : React.js, Node.js, MongoDB,Tailwind CSS, JWT, Redux Toolkit, sockt.io, Firebase</p>
           <div className='projectcard-icons'>
