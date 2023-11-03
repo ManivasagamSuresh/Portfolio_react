@@ -21,7 +21,7 @@ function Skillicons() {
     <div id="skills" className="col-lg-12">
       <h4 className="Tech">Technologies and Tools :</h4>
       <div id="row1" className="row">
-        <div className="col-lg-6 row6">
+        <div className="col-lg-6 row6" >
           <div className="gridicon">
             <img src={html} alt="" />
             <span>HTML</span>
