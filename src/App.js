@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
@@ -17,29 +17,41 @@ import About from "./Components/About/About";
 import Project from "./Components/Project/Project";
 import Contact from "./Components/Contact/Contact";
 import Skills from "./Components/Skills/Skills";
+import { BrowserRouter, Route,  Routes } from "react-router-dom";
 
 function App() {
  
   return (
+    <BrowserRouter>
     <div className="container">
-      {/* <Topbar /> */}
-      <Topbar/>
+      <Topbar />
+      {/* <Topbar/> */}
       {/* <Homeintro /> */}
-      <Home/>
+      {/* <Home/> */}
       {/* <About /> */}
-      <About/>
-
+      {/* <About/> */}
       {/* <Skills/> */}
-      <Skills/>
+      {/* <Skills/> */}
       {/* <Projects /> */}
-      <Project/>
-      <hr className="col-lg-12" id="line" />
+      {/* <Project/> */}
+      {/* <hr className="col-lg-12" id="line" /> */}
       {/* <Contact /> */}
-      <Contact/>
-      <div className="col-lg-12" id="credits">@2022 Manivasagam</div>
+      {/* <Contact/> */}
+    
+    
+      <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/about' element={<About/>}/>
+      <Route path='/skills' element={<Skills/>}/>
+      <Route path='/projects' element={<Project/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+      </Routes>
+      
+
+        <div className="col-lg-12" id="credits">@2024 Manivasagam</div>
 
     </div>
-    
+    </BrowserRouter>
   );
 }
 

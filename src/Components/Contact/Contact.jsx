@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Formik, useFormik } from 'formik';
+import { useFormik } from 'formik';
 import React, { useState } from 'react'
 import { AiOutlineGithub } from 'react-icons/ai';
 import { BsLinkedin } from 'react-icons/bs';
