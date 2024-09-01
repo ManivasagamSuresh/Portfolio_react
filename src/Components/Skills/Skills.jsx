@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./Skills.css"
 import Softskills from '../Softskills/Softskills';
 import Skillicons from '../Skillicons/Skillicons';
@@ -10,7 +10,7 @@ function Skills() {
     return (
     <div id="skill"  className="row"> 
       <div className="col-lg-12">
-      <h1 className="display-4">SKILLS</h1>
+      <h1 className="display-4 skillsHeading">SKILLS</h1>
       <div className="row">
       <Skillicons/> 
       </div>

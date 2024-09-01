@@ -50,7 +50,7 @@ const formik = useFormik({
     </div>
     <div className="col-lg-7 contact-r">
       
-        <h1 className="display-4">Say Hi</h1>
+        <h1 className="display-4 sayHi">Say Hi</h1>
       <form onSubmit={formik.handleSubmit}>
         <input type="text"  placeholder='Name*' required value={formik.values.name} name="name" onChange={formik.handleChange}/><br/>
         <input type="email" placeholder="Email*" required value={formik.values.email} name="email" onChange={formik.handleChange}/><br/>

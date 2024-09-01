@@ -1,6 +1,12 @@
 .Tech {
   padding: 20px 0px 30px;
 }
+
+.skillsHeading{
+  color:#FFc40a !important;
+  font-size: 48px; 
+}
+
 .softskills {
   margin-top: 60px;
   margin-bottom: 50px;

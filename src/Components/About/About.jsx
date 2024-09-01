@@ -7,11 +7,11 @@ function About() {
   let [edu, setEdu] = useState(false);
   let [exp, setExp] = useState(true);
   let opentab = (i) => {
-    if (i == "Education") {
+    if (i === "Education") {
       setEdu(true);
       setExp(false);
     }
-    if (i == "Experience") {
+    if (i === "Experience") {
       setEdu(false);
       setExp(true);
     }
@@ -20,7 +20,7 @@ function About() {
     <div id="about">
       <div className="row">
         <div className="col-lg-12">
-          <h1 className="display-4">ABOUT</h1>
+          <h1 className="display-4 ">ABOUT</h1>
           <p className="about-info ">
             A self-motivated, adaptable individual with a passion for continuous
             learning. Experienced in delivering exceptional client service and

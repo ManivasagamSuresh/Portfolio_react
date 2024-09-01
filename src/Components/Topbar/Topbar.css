@@ -21,8 +21,9 @@ nav li div{
 }
 
 nav li div:hover{
-    color:#fff ;
+    color:#FFc40a;
 }
+
 #navbut {
   background-color: #FFc40a;
   color: #080808;
