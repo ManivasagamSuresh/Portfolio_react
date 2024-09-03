@@ -23,22 +23,8 @@ function App() {
  
   return (
     <BrowserRouter>
-    <div className="container">
-      <Topbar />
-      {/* <Topbar/> */}
-      {/* <Homeintro /> */}
-      {/* <Home/> */}
-      {/* <About /> */}
-      {/* <About/> */}
-      {/* <Skills/> */}
-      {/* <Skills/> */}
-      {/* <Projects /> */}
-      {/* <Project/> */}
-      {/* <hr className="col-lg-12" id="line" /> */}
-      {/* <Contact /> */}
-      {/* <Contact/> */}
-    
-    
+    <div>
+      <Topbar />   
       <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
@@ -47,8 +33,9 @@ function App() {
       <Route path='/contact' element={<Contact/>}/>
       </Routes>
       
-
-        <div className="col-lg-12" id="credits">@2024 Manivasagam</div>
+  <div className="flexContainer">
+        <div className="Creditsfooter " id="credits">@2024 Manivasagam Suresh</div>
+  </div>
 
     </div>
     </BrowserRouter>

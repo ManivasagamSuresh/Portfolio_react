@@ -1,100 +1,291 @@
-#home-intro{
-    position: relative;
-    
-    
-  }
-  #there{
-      font-size: 35px;
-  }
-  #introname{
-      font-size: 50px;
-      font-family:Arial, Helvetica, sans-serif;
-  }
-
-  @media screen and (max-width:700px) {
-    #introname{
-      font-size: 40px;
-      font-family:Arial, Helvetica, sans-serif;
-  }
-  }
-  #mani{
-      color: #FFc40a;
-      font-family:Arial, Helvetica, sans-serif;
-  }
-  #resumedownload{
-    margin-top: 70px;
-    color: #FFc40a;
-  }
-  #resumedownload:hover{
-    color: #fff;
-    transform:scale(1.1)
-  }
-
-
-  /* --------------------fullstack animation--------------------------- */
-
-  .animate-character{
-    color: #fff;
-    font-size: 20px;
-    font-weight: bolder;
-    font-family:Arial, Helvetica, sans-serif;
-    position: relative;
-    /* width:200px; */
-    z-index: -1;
+.boxintro {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.animate-character::after{
-  content:"";
+
+.introname {
+  font-size: 52px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#mani {
+  color: #ffc40a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.animate-character {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  z-index: -1;
+  width: fit-content;
+}
+
+/* --------------------fullstack animation--------------------------- */
+
+.animate-character::after {
+  content: "";
   position: absolute;
   z-index: 1;
   left: 0;
   height: 100%;
   width: 100%;
   background: #080808;
-  border-left: 2px solid #FFc40a;
-  animation: typing 3.5s steps(25) infinite;
+  border-left: 2px solid #ffc40a;
+  animation: typing 4s steps(30) infinite;
 }
 
 @keyframes typing {
-100%{
-
-transform: translateX(280px);
+  100% {
+    transform: translateX(105%);
+  }
 }
-}
-
 
 /* -------------------homeicons----------------- */
 
-
-.homeicons{ 
-display: inline;
-position: relative;
-top: 30px;
-left: 10px;
-margin-right: 30px;
-}
-.homeicons a :hover{
-transition: 1s;
-transform: scale(1.05);
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.boxintro{
-
-position: relative;
-
-top: 50px;
-margin: 20px;
+.iconContainerSocial {
+  display: flex;
+  gap: 30px;
 }
 
-#image1{
-margin:10px ;  
-z-index: 10;
+.homeGithubIcon {
+  width: 36px;
+  height: 36px;
+}
 
+.homeLinkedIcon {
+  width: 36px;
+  height: 36px;
 }
-#home-intro{
-padding-top:100px;
+
+.resumedownloadLink {
+  width: fit-content;
 }
-@media screen and (max-width: 900px) {
-.indexi2{
-  display: none;
+
+#resumedownload {
+  color: #ffc40a;
+  background: transparent;
+  outline: none;
+  border: 1px solid #ffc40a;
+  border-radius: 4px;
+  padding: 6px 12px;
 }
+
+#resumedownload:hover {
+  color: #fff;
+  background: #ffc40a;
+  transition: 0.5s;
+  transform: scale(1.05);
 }
+
+#image1 {
+  z-index: 10;
+}
+
+.HomeMeditateImage {
+  height: 100%;
+  width: 100%;
+}
+
+/* responsive Designs */
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+  .boxintro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 0px;
+    gap: 28px;
+  }
+
+  .leftContainer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .introname {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .animate-character {
+    font-size: 16px;
+  }
+  .iconContainer {
+    align-items: center;
+  }
+
+  .iconContainerSocial {
+    gap: 24px;
+    justify-content: center;
+  }
+  .homeGithubIcon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .homeLinkedIcon {
+    width: 28px;
+    height: 28px;
+  }
+
+  #resumedownload {
+    border-radius: 4px;
+    padding: 4px 8px;
+  }
+
+  .HomeMeditateImage {
+    height: 80%;
+    width: 80%;
+  }
+  #image1 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Bigger mobiles  to tab*/
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .boxintro {
+    padding: 48px 0px;
+    gap: 28px;
+  }
+
+  .leftContainer {
+    width: 80%;
+  }
+  .introname {
+    font-size: 38px;
+  }
+
+  .animate-character {
+    font-size: 18px;
+  }
+
+  .iconContainerSocial {
+    gap: 26px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .boxintro {
+    padding: 48px 0px;
+    /* gap: 28px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .leftContainer {
+   flex: 1;
+   padding-left: 10%;
+    
+  }
+  .introname {
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .animate-character {
+    font-size: 16px;
+  }
+  /* .iconContainer {
+    align-items: center;
+  } */
+
+  .iconContainerSocial {
+    gap: 24px;
+    /* justify-content: center; */
+  }
+  .homeGithubIcon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .homeLinkedIcon {
+    width: 28px;
+    height: 28px;
+  }
+
+  #resumedownload {
+    border-radius: 4px;
+    padding: 4px 8px;
+  }
+
+  .HomeMeditateImage {
+    height: 80%;
+    width: 80%;
+  }
+  #image1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1300px) {
+  .boxintro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .introname {
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+  .animate-character {
+   
+    font-size: 18px;
+   
+  }
+     
+  .iconContainerSocial {
+    display: flex;
+    gap: 22px;
+  }
+  
+  .homeGithubIcon {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .homeLinkedIcon {
+    width: 32px;
+    height: 32px;
+  }
+  
+ 
+  #image1 {
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .HomeMeditateImage {
+    height: 80%;
+    width: 80%;
+  }
+}
+
+
+

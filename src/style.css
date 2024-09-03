@@ -1,76 +1,36 @@
 /* --------------------OverAll------------------------ */
-*{
-    margin: 0;
-    padding: 0;
-    font-family:Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-  }
-  body{
-    background-color: #080808 ;
-    color: antiquewhite;
-    
-  }
-
-  /* ---------------------------intro------------------ */
-  .boxintro{
-    margin-top: 0px;
-    margin-bottom:0px;
-  }
-  
-  
-
-/* ------------------about----------------- */
-
-/* #about{
-  margin-top: 100px;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
-#about h1{
-  margin-top: 40px;
-  text-align: center;
-  font-size: 40px;
-  color:#C0C0C0;
+body {
+  background-color: #080808;
+  color: antiquewhite;
 }
-#skill{
-  margin-top: 100px ;
-}
-#skill h1{
-  margin-top: 40px;
-  text-align: center;
-  font-size: 40px;
-  color:#C0C0C0;
-}
-.about-info{
-  font-size: 20px;
-  text-indent:0px ;
-  padding:10px 50px ;
-  word-spacing: 5px;
-  color: #C0C0C0;
-}
-.Tech{
-  padding: 20px 0px 30px;
-}
-.softskills{
-  margin-top: 60px;
-  margin-bottom: 50px;  
+/* TODO : Modify the 100px to topbar height once topbar is done */
 
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.MinAndMAxDimention {
+  /* min-height: calc(100vh - 100px); */
 
-.softskills div ul li{
-list-style-type: disc;
-margin:20px 0px 0px 30px;
-
-} */
-
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1800px;
+}
 
 /* -----------------credits--------------- */
-#credits{
+#credits {
   background-color: #af9439;
   text-align: center;
-  margin-top: 120px;
+
   color: #080808;
-  font-family: 'Times New Roman', Times, serif\
-
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+  max-width: 1800px;
 }
-
-
-
