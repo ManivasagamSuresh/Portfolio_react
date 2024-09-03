@@ -11,6 +11,11 @@
 .mobileMenuIcon{
     display: none;
 }
+.hamburgerMenu{
+  color: #af9439;
+  width: 24px;
+  height: 24px;
+}
 
 .navContainer {
   display: flex;

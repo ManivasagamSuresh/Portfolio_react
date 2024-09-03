@@ -3,7 +3,7 @@ import "./Navbar.css";
 import { useNavigate } from "react-router-dom";
 import { LuMenu } from "react-icons/lu";
 import MobNavbar from "../MobNavbar/MobNavbar";
-import { RxCross2 } from "react-icons/rx";
+
 
 function Navbar() {
   const [mobNav, setMobileNav] = useState(false);
@@ -20,14 +20,14 @@ function Navbar() {
        
       >
           {
-          !mobNav  && <LuMenu  onClick={() => {
+          !mobNav  && <LuMenu  className="hamburgerMenu" onClick={() => {
             setMobileNav(true);
           }}/>
         }
         
       </div>
       {mobNav ? (
-        <MobNavbar />
+        <MobNavbar setMobileNav={setMobileNav}/>
       ) : (
           <nav className="navContainer">
             <div
@@ -42,7 +42,6 @@ function Navbar() {
 
             <div
               id="link2"
-              href="#about"
               className={`navlinks ${window.location.pathname === "/about" && "activepage"}`}
               onClick={() => {
                 navigate("/about");
@@ -53,7 +52,6 @@ function Navbar() {
 
             <div
               id="link3"
-              href="#skill"
               className={`navlinks ${window.location.pathname === "/skills" && "activepage"}`}
               onClick={() => {
                 navigate("/skills");
@@ -64,7 +62,6 @@ function Navbar() {
 
             <div
               id="link4"
-              href="#project"
               className={`navlinks ${window.location.pathname === "/projects" && "activepage"}`}
               onClick={() => {
                 navigate("/projects");
@@ -75,7 +72,6 @@ function Navbar() {
 
             <div
               id="link5"
-              href="#contact"
               className={`navlinks ${window.location.pathname === "/contact" && "activepage"}`}
               onClick={() => {
                 navigate("/contact");
