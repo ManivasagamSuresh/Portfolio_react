@@ -18,13 +18,15 @@ import Project from "./Components/Project/Project";
 import Contact from "./Components/Contact/Contact";
 import Skills from "./Components/Skills/Skills";
 import { BrowserRouter, Route,  Routes } from "react-router-dom";
+import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
  
   return (
     <BrowserRouter>
     <div>
-      <Topbar />   
+      {/* <Topbar />    */}
+      <Navbar />
       <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
