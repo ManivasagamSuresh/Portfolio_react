@@ -9,19 +9,27 @@ body {
   background-color: #080808;
   color: antiquewhite;
 }
-/* TODO : Modify the 100px to topbar height once topbar is done */
 
 .flexContainer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .MinAndMAxDimention {
   min-height: calc(100vh - 97px);
   /* min-height: 100vh; */
   width: 100%;
   max-width: 1800px;
 }
+
+@media screen and (max-width: 768px) {
+.MinAndMAxDimention {
+  min-height: calc(100vh - 60px);
+ 
+}
+}
+
 
 /* -----------------credits--------------- */
 #credits {

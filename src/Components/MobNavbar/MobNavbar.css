@@ -28,7 +28,8 @@
     flex-direction: column;
     gap: 8px;
     align-items: center;
-    justify-content: center;
+    padding-top: 64px;
+    /* justify-content: center; */
     height: 100%;
     width: 100%;
 }

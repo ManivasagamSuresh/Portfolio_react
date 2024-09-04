@@ -1,73 +1,248 @@
-#about{
-    margin-top: 60px;
-  }
-  #about h1{
-    margin-top: 40px;
-    text-align: center;
-    font-size: 40px;
-    color:#FFc40a !important
-  }
-  #skill{
-    margin-top: 100px ;
-  }
-  #skill h1{
-    margin-top: 40px;
-    text-align: center;
-    font-size: 40px;
-    color:#C0C0C0;
-  }
-  .about-info{
-    font-size: 20px;
-    text-indent:0px ;
-    padding:20px 50px ;
-    word-spacing: 5px;
-    color: #C0C0C0;
-  }
-  
+.about_container {
+  padding: 0px 54px 54px 54px;
+}
 
-  .tab-titles{
-    display: flex;
-    margin: 20px 0 40px;
-    color:#C0C0C0
+.about-heading {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 44px;
+  color: #ffc40a !important;
+}
+
+.about-Content {
+  width: 100%;
+}
+
+.about-info {
+  font-size: 22px;
+  word-spacing: 6px;
+  color: #c0c0c0;
+}
+
+.tab-titles {
+  display: flex;
+  gap: 64px;
+  width: 100%;
+  margin: 20px 0 40px;
+  color: #c0c0c0;
+}
+
+.tab-links {
+  font-size: 1.5em;
+  font-weight: 400;
+  width: fit-content;
+  cursor: pointer;
+  position: relative;
+}
+
+.tab-links::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #ffc40a;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+}
+
+.tab-links:hover::after {
+  width: 100%;
+}
+
+.tab-links.active-link::after {
+  width: 100%;
+}
+
+.tab-contents {
+  width: 100%;
+  color: #c0c0c0;
+}
+
+.tab-contents ul li {
+  list-style: none;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.durationExp{
+  color: #ffd700;
+  font-size: 16px;
+}
+
+.expTitle{
+font-size: 18px;
+}
+
+.tab-contents {
+  display: none;
+}
+
+.tab-contents.active-tab {
+  display: block;
+}
+
+/* Mobile screen */
+
+@media screen and (max-width: 768px) {
+  .about_container {
+    padding: 0px 24px 28px 24px;
   }
-  .tab-links{
-    margin-right: 10%;
-    font-size: 1.5em;
+
+  .about-heading {
+    margin-top: 20px;
+    font-size: 28px;
+  }
+
+  .about-info {
+    font-size: 16px;
+    word-spacing: 1px;
+    color: #c0c0c0;
+    text-align: justify;
+  }
+
+  .tab-titles {
+    display: flex;
+    gap: 32px;
+    width: 100%;
+    margin: 16px 0 28px;
+    color: #c0c0c0;
+  }
+
+  .tab-links {
+    font-size: 18px;
     font-weight: 400;
+    width: fit-content;
     cursor: pointer;
     position: relative;
   }
-  .tab-links.skills{
-  margin-right: 0px;
+
+  .tab-links::after {
+    height: 2px;
+    bottom: -6px;
   }
-  .tab-links::after{
-    content: "";
-    width: 0;
-    height : 3px;
-    background:#FFc40a ;
-    position: absolute;
-    left: 0;
-    bottom:-8px;
-    transition: 0.5s;
-  }
-  .tab-links.active-link::after{
-    width:75%;
-  }
-  
+
   .tab-contents ul li {
-    list-style: none;
+    font-size: 14px;
     margin: 10px 0;
   }
-  .tab-contents ul li span{
-    color: #FFD700	;
+
+  .durationExp{
+    color: #ffd700;
     font-size: 14px;
   }
-  .tab-contents{
-    display: none;
-  }
-  .tab-contents.active-tab{
-    display: block;
+
+  .expTitle{
+ font-size: 16px;
   }
 
+}
 
-  /* Mobile screen */
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .about_container {
+    padding: 0px 48px 28px;
+  }
+
+  .about-heading {
+    margin-top: 20px;
+    font-size: 32px;
+  }
+
+  .about-info {
+    font-size: 16px;
+    word-spacing: 1px;
+    color: #c0c0c0;
+    text-align: justify;
+  }
+
+  .tab-titles {
+    display: flex;
+    gap: 32px;
+    width: 100%;
+    margin: 16px 0 28px;
+    color: #c0c0c0;
+  }
+
+  .tab-links {
+    font-size: 18px;
+    font-weight: 400;
+    width: fit-content;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .tab-links::after {
+    height: 2px;
+    bottom: -6px;
+  }
+
+  .tab-contents ul li {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+
+  .durationExp{
+    color: #ffd700;
+    font-size: 14px;
+  }
+
+  .expTitle{
+ font-size: 16px;
+  }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1300px) {
+  .about_container {
+    padding: 0px 48px 28px;
+  }
+
+  .about-heading {
+    margin-top: 20px;
+    font-size: 36px;
+  }
+
+  .about-info {
+    font-size: 18px;
+    word-spacing: 1px;
+    color: #c0c0c0;
+    text-align: justify;
+  }
+
+  .tab-titles {
+    display: flex;
+    gap: 32px;
+    width: 100%;
+    margin: 16px 0 28px;
+    color: #c0c0c0;
+  }
+
+  .tab-links {
+    font-size: 18px;
+    font-weight: 400;
+    width: fit-content;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .tab-links::after {
+    height: 2px;
+    bottom: -6px;
+  }
+
+  .tab-contents ul li {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+
+  .durationExp{
+    color: #ffd700;
+    font-size: 14px;
+  }
+
+  .expTitle{
+ font-size: 16px;
+  }
+}

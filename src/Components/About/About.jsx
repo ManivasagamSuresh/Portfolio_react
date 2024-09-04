@@ -17,18 +17,16 @@ function About() {
     }
   };
   return (
-    <div id="about">
-      <div className="row">
-        <div className="col-lg-12">
-          <h1 className="display-4 ">ABOUT</h1>
-          <p className="about-info ">
+    <div  className="flexContainer">
+      <div className="MinAndMAxDimention about_container">
+          <div className="about-heading">ABOUT</div>
+          <p className="about-info">
             A self-motivated, adaptable individual with a passion for continuous
             learning. Experienced in delivering exceptional client service and
             adapting to change. Seeking an opportunity to utilize and expand
             technical expertise in full-stack development.
           </p>
 
-          <div className="about col-lg-12">
             <div className="tab-titles">
               <p
                 className={`tab-links ${exp ? "active-link" : ""}`}
@@ -48,22 +46,21 @@ function About() {
                 Education
               </p>
             </div>
-          </div>
 
           <div
-            className={`col-lg-12 tab-contents  ${edu ? "active-tab" : ""}`}
+            className={`tab-contents  ${edu ? "active-tab" : ""}`}
             id="Education"
           >
             <Education />
           </div>
 
           <div
-            className={`col-lg-12 tab-contents  ${exp ? "active-tab" : ""}`}
+            className={`tab-contents  ${exp ? "active-tab" : ""}`}
             id="Experience"
           >
             <Experience />
           </div>
-        </div>
+      
       </div>
     </div>
   );
