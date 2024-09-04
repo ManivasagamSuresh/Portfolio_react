@@ -3,7 +3,7 @@ import React from 'react'
 function Softskills() {
   return (
     <>
-     <div className="col-lg-6 softskills">
+     <div className="softskills">
             <h4>Professional Skills :</h4>
             <ul style={{ listStyleType: "disc" }}>
               <li>Time Management</li>
@@ -13,7 +13,7 @@ function Softskills() {
             </ul>
           </div>
 
-          <div className="col-lg-6 softskills">
+          <div className="softskills">
             <h4>Languages Known :</h4>
             <ul style={{ listStyleType: "disc" }}>
               <li>English</li>

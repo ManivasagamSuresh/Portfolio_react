@@ -8,16 +8,16 @@ import Skillicons from '../Skillicons/Skillicons';
 
 function Skills() {
     return (
-    <div id="skill"  className="row"> 
-      <div className="col-lg-12">
-      <h1 className="display-4 skillsHeading">SKILLS</h1>
-      <div className="row">
+    <div id="skill" className='Skills_OuterContainer flexContainer'> 
+    <div className='MinAndMAxDimention'>
+      <h1 className=" skillsHeading">SKILLS</h1>
+      <div className='Skills_OuterContainer'>
       <Skillicons/> 
       </div>
-      <div className="row">
+      <div className='softSkills_OuterContainer'>
       <Softskills/>
       </div>
-      </div>     
+      </div>
     </div>
   )
 }

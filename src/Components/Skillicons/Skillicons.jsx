@@ -18,92 +18,81 @@ import socket from "../../images/socketIO.png";
 
 function Skillicons() {
   return (
-    <div id="skills" className="col-lg-12">
+    <div className="skills-Icon_Container">
       <h4 className="Tech">Technologies and Tools :</h4>
-      <div id="row1" className="row">
-        <div className="col-lg-6 row6" >
-          <div className="gridicon">
+      <div className="skills-Icon_innerContainer" >
+        <div className="skills_IconsRow" >
+          <div className="gridicon AnimateFirstRowSectionOne">
             <img src={html} alt="" />
             <span>HTML</span>
           </div>
-          <div className="gridicon">
+          <div className="gridicon AnimateFirstRowSectionOne">
             <img src={js} alt="" id="jsicon" />
             <span>Java Script</span>
           </div>
-        </div>
-        <div className="col-lg-6 row6">
-          <div className="gridicon">
+          <div className="gridicon AnimateFirstRowSectionTwo">
             <img src={css} alt="" id="cssicon" />
             <span>CSS</span>
           </div>
-          <div className="gridicon">
+          <div className="gridicon AnimateFirstRowSectionTwo">
             <img src={boot} alt="" id="bootstrapicon" />
             <span>BootStrap</span>
           </div>
         </div>
 
-        <div className="col-lg-6 row6">
-          <div className=" gridicon">
+        <div className="skills_IconsRow">
+          <div className=" gridicon AnimateFirstRowSectionThree">
             <img src={rct} alt="" />
-            <span>React</span>
+            <span>React JS</span>
           </div>
-          <div className=" gridicon">
+          <div className=" gridicon AnimateFirstRowSectionThree">
             <img src={node} alt="" />
-            <span>Node Js</span>
+            <span>Node JS</span>
           </div>
-        </div>
-
-        <div className="col-lg-6 row6">
-          <div className=" gridicon" id="mongoDB" >
+          <div className=" gridicon AnimateFirstRowSectionFour" id="mongoDB" >
             <img src={mongo} alt="" />
             <span>MongoDB</span>
           </div>
 
-          <div className="gridicon">
+          <div className="gridicon AnimateFirstRowSectionFour">
             <img src={redux} alt="" />
             <span>Redux</span>
           </div>
         </div>
 
-        <div className="col-lg-6 row6">
-          <div className=" gridicon">
+        <div className="skills_IconsRow">
+          <div className=" gridicon AnimateFirstRowSectionFive">
             <img src={nxt} alt="" />
             <span>Next JS</span>
           </div>
-          <div className="gridicon">
+          <div className="gridicon AnimateFirstRowSectionFive">
             <img src={tailwind} alt="" />
             <span style={{ marginLeft: "10px" }}>Tailwind CSS</span>
           </div>
-        </div>
-
-        <div className="col-lg-6 row6">
-          <div className="gridicon">
+          <div className="gridicon AnimateFirstRowSectionSix">
             <img src={JWT} alt="" />
             <span>JWT</span>
           </div>
-          <div className="gridicon">
+          <div className="gridicon AnimateFirstRowSectionSix">
             <img src={github} alt="" />
             <span>GitHub</span>
           </div>
         </div>
 
-        <div className="col-lg-6 row6">
-          <div className=" gridicon">
+        <div className="skills_IconsRow">
+          <div className=" gridicon AnimateFirstRowSectionSeven">
             <img src={post} alt="" />
             <span>Postman</span>
           </div>
-          <div className="gridicon">
+          <div className="gridicon AnimateFirstRowSectionSeven">
             <img src={firebase} alt="" />
             <span>Firebase</span>
           </div>
-        </div>
-
-        <div className="col-lg-6 row6">
-          <div className="gridicon">
+          <div className="gridicon AnimateFirstRowSectionEight">
             <img src={sql} alt="" />
             <span>SQL</span>
           </div>
-          <div className="gridicon">
+          <div className="gridicon AnimateFirstRowSectionEight">
             <img src={socket} alt="" />
             <span>Socket IO</span>
           </div>
