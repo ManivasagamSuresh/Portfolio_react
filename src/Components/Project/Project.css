@@ -1,85 +1,177 @@
-.projects-heading{
+.projectOuterContainer {
+  padding: 24px 128px;
+}
+
+.projects-heading {
   text-align: center;
-  color:#FFc40a !important ;
-  margin-top: 30px;
+  font-size: 38px;
+  color: #ffc40a !important ;
 }
-.projects-des{
-  margin:40px ;
-}
-.card-body{
-  
+
+.ProjectDescriptionContainer {
   display: flex;
-  flex-wrap: wrap;
-  padding: 15px;
+  flex-direction: column;
+  gap: 32px;
 }
-.card{
-  margin-bottom: 50px;
+
+.credsContainer {
+  margin-bottom: 32px;
+}
+
+.projectCardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 108px;
+}
+
+.card-body {
   border-radius: 15px;
   overflow: hidden;
-  background-color: #C0C0C0;
+  background-color: #c0c0c0;
   color: #080808;
   font-family: Arial, Helvetica, sans-serif;
-  
-}
-#project{
-  margin-top:120px;
-  margin-bottom:100px;
-}
-.card-link{
-  margin: 10px 10px;
-  color:#080808;
-  text-decoration: none;
-}
-.projectcard-icons{
   display: flex;
-  flex-flow: row wrap;
-  
+  flex-wrap: wrap;
+  padding: 18px 48px;
 }
-.card-link:hover{
+
+.card-link {
+  /* margin: 10px 10px; */
+  
+  font-size: 16px;
+  color: #080808;
+  text-decoration: none;
+  display: flex;
+align-items: center;
+}
+.projectcard-icons {
+  display: flex;
+  gap: 18px;
+  flex-flow: row wrap;
+}
+.card-link:hover {
   color: #af9439;
   transform: scale(1.1);
 }
-.card-tech{
-  color:#af9439;
+.card-tech {
+  color: #af9439;
 }
-.card-title{
+.card-title {
   font-weight: bolder;
+  font-size: 24px;
 }
-.giticon{
-  margin-right: 5px;
-  cursor: pointer;
+.card-text {
+  font-size: 16px;
 }
 
-.card-d{
+.techUsed{
+  font-size: 16px;
+}
+
+.giticon {
+  margin-right: 5px;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.card-d {
   flex: 7;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
-.card-i{
-flex: 1;
+.card-i {
+  flex: 1;
 }
-.project-img{
+.project-img {
   width: 340px;
   height: 200px;
   margin: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .projects-heading{
+    font-size: 28px;
+  }
+
+  .projectOuterContainer {
+    padding: 18px 16px;
+  }
+
+  .ProjectDescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .credsContainer {
+    margin-bottom: 32px;
+  }
+
+  .projectCardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 48px;
+  }
+
+  .card-body {
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #c0c0c0;
+    color: #080808;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 16px;
+  }
+
+  .card-title {
+    font-weight: bolder;
+    font-size: 20px;
+  } 
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  
+.techUsed{
+  font-size: 14px;
+}
+.card-link {
+  font-size: 14px;
+}
+.giticon {
+  margin-right: 5px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+  .project-img {
+    width: 250px;
+    height: 170px;
+  }
+
 
 }
 
-@media screen and (max-width:700px) {
-    .project-img{
-      width: 250px;
-      height: 170px;
-    }
+@media screen and (min-width: 481px) and (max-width: 768px) {
 }
 
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .projects-heading{
+    font-size: 32px;
+  }
+}
 
+@media screen and (min-width: 1025px) and (max-width: 1300px) {
+  .projects-heading{
+    font-size: 36px;
+  }
 
-
-@media screen and (max-width: 768px) {}
-
-
-@media screen and (min-width: 481px) and (max-width: 768px) {}
-
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {}
-
-
-@media screen and (min-width: 1025px) and (max-width: 1300px) {}
+}

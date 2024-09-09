@@ -2,7 +2,7 @@
 
 .skillsHeading{
   color:#FFc40a !important;
-  font-size: 48px; 
+  font-size: 38px; 
   text-align: center;
 margin-top: 20px;
 }
@@ -82,7 +82,7 @@ margin-top: 20px;
 
 .skillsHeading{
   color:#FFc40a ;
-  font-size: 32px; 
+  font-size: 28px;
   text-align: center;
   margin-top: 20px;
 }
@@ -175,7 +175,9 @@ gap: 8px;
 
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  
+  .skillsHeading{
+    font-size: 32px;
+  }
   .skills-Icon_innerContainer{
     display: flex;
     flex-direction: column;
@@ -205,7 +207,9 @@ gap: 8px;
 
 
 @media screen and (min-width: 1025px) and (max-width: 1300px) {
-  
+  .skillsHeading{
+    font-size: 36px;
+  }
   .gridicon img{
     width: 64px;
     height: fit-content;

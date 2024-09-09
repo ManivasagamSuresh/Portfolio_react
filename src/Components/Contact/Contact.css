@@ -1,63 +1,129 @@
-#line{
-    background: #FFc40a;
-    height: 1px;
-    opacity: 0.3;
-   }
-   input{
-    margin-bottom: 30px;
+.contactContainer {
+  display: flex;
+  padding: 24px 108px;
+}
+
+.Contact_socialIconsContainer {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+#line {
+  background: #ffc40a;
+  height: 1px;
+  opacity: 0.3;
+}
+input {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border-color: #ffc40a;
+  color: grey;
+  padding: 6px 16px;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  border-color: #ffc40a;
+  color: grey;
+  margin-bottom: 20px;
+  padding: 6px 16px;
+}
+
+.contact-r {
+  margin-top: 70px;
+  width: 59%;
+}
+.submit {
+  border: 1px solid #ffc40a;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #af9439;
+  color: #fff;
+}
+
+.contact-l {
+  width: 41%;
+  margin-top: 80px;
+}
+
+.contact-l-icons {
+  margin-top: 30px;
+}
+
+
+#msg {
+  color: #af9439;
+}
+
+.sayHi {
+  font-size: 48px;
+  color: #ffc40a !important;
+}
+.Contact-ConnectHeading {
+  font-size: 36px;
+}
+
+.Contact_socialIcon {
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .contactContainer {
+    flex-direction: column;
+    gap: 22px;
+    padding: 24px 24px;
+  }
+  .contact-l {
     width: 100%;
-    height: 35px;
-    border-radius: 5px;
-    border-color:  #FFc40a;
-    color: grey;
-   }
-   textarea{
+    margin-top: 20px;
+  }
+ 
+  .contact-r {
+    margin-top: 20px;
     width: 100%;
-    border-radius: 5px;
-    border-color:  #FFc40a;
-    color: grey;
-    margin-bottom: 20px;
-   }
-  
-   .contact-r{
-    margin-top: 70px;
   }
-  .submit{
-    border: 1px solid #FFc40a;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #af9439;
-    color: #fff;
+  .Contact_socialIcon {
+    width: 28px;
+    height: 28px;
   }
-  
-  .contact-l-icons{
-    margin-top:30px;
+  .sayHi {
+    font-size: 36px;
+    color: #ffc40a !important;
   }
-  .contact-l-icons a{
-    margin-top:20px ;
-  } 
-  .contact-l{
-    padding-top: 80px;
+  .Contact-ConnectHeading {
+    font-size: 28px;
   }
-  
-  #msg{
-    color: #af9439;
-  }
-  
+}
 
-  .sayHi{
-    color: #FFc40a !important
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .contactContainer {
+    padding: 28px 54px;
   }
 
+  .Contact_socialIcon {
+    width: 28px;
+    height: 28px;
+  }
+  .sayHi {
+    font-size: 44px;
+    color: #ffc40a !important;
+  }
+  .Contact-ConnectHeading {
+    font-size: 32px;
+  }
+  .contact-l {
+    margin-top: 40px;
+  }
+  .contact-r {
+    margin-top: 40px;
+  }
+}
 
-  
-@media screen and (max-width: 768px) {}
-
-
-@media screen and (min-width: 481px) and (max-width: 768px) {}
-
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {}
-
-
-@media screen and (min-width: 1025px) and (max-width: 1300px) {}
+@media screen and (min-width: 1025px) and (max-width: 1300px) {
+}
