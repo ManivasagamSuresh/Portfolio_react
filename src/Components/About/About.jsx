@@ -21,7 +21,7 @@ function About() {
       <div className="MinAndMAxDimention about_container">
           <div className="about-heading">ABOUT</div>
           <p className="about-info">
-            A self-motivated, adaptable individual with a passion for continuous
+            A self-motivated, adaptable developer with a passion for continuous
             learning. Experienced in delivering exceptional client service and
             adapting to change. Seeking an opportunity to utilize and expand
             technical expertise in full-stack development.

@@ -60,7 +60,7 @@
 }
 
 .tab-contents ul li {
-  list-style: none;
+  /* list-style: none; */
   margin: 10px 0;
   font-size: 16px;
 }
@@ -245,4 +245,23 @@ font-size: 18px;
   .expTitle{
  font-size: 16px;
   }
+}
+
+.white-disc-sub{
+  list-style-type: none !important;
+}
+
+.underline-yellow {
+  text-decoration: underline;
+  text-decoration-color: #af9439;
+}
+
+.white-disc {
+  list-style-type: disc !important;
+  /* color: white; */
+}
+
+li::marker  {
+  color: #af9439 !important;
+  font-size: larger;
 }
