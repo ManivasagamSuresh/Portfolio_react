@@ -287,6 +287,15 @@ gap: 8px;
   animation: IconsAnimate 2.4s ease;
 }
 
+.AnimateFirstRowSectionNine{
+  transition: 1s;
+  animation: IconsAnimate 2.7s ease;
+}
+
+.AnimateFirstRowSectionTen{
+  transition: 1s;
+  animation: IconsAnimate 2.7s ease;
+}
 
 
 
@@ -335,5 +344,15 @@ gap: 8px;
   animation: IconsAnimate 3.6s ease;
 }
 
+
+.AnimateFirstRowSectionNine{
+  transition: 1s;
+  animation: IconsAnimate 3.9s ease;
+}
+
+.AnimateFirstRowSectionTen{
+  transition: 1s;
+  animation: IconsAnimate 4.2s ease;
+}
 
   }

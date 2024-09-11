@@ -15,6 +15,8 @@ import JWT from "../../images/JWT.png";
 import nxt from "../../images/nxt.png";
 import tailwind from "../../images/tailwindcss.png";
 import socket from "../../images/socketIO.png";
+import typescriptIcon from '../../images/Typescript.png'
+import sass from "../../images/Sass.png"
 
 function Skillicons() {
   return (
@@ -31,12 +33,12 @@ function Skillicons() {
             <span>Java Script</span>
           </div>
           <div className="gridicon AnimateFirstRowSectionTwo">
-            <img src={css} alt="" id="cssicon" />
-            <span>CSS</span>
+            <img src={typescriptIcon} alt="" id="cssicon" />
+            <span>Type Script</span>
           </div>
           <div className="gridicon AnimateFirstRowSectionTwo">
-            <img src={boot} alt="" id="bootstrapicon" />
-            <span>BootStrap</span>
+            <img src={css} alt="" id="bootstrapicon" />
+            <span>CSS</span>
           </div>
         </div>
 
@@ -46,36 +48,36 @@ function Skillicons() {
             <span>React JS</span>
           </div>
           <div className=" gridicon AnimateFirstRowSectionThree">
+            <img src={nxt} alt="" />
+            <span>Next JS</span>
+          </div>
+          <div className=" gridicon AnimateFirstRowSectionFour" id="mongoDB" >
             <img src={node} alt="" />
             <span>Node JS</span>
           </div>
-          <div className=" gridicon AnimateFirstRowSectionFour" id="mongoDB" >
-            <img src={mongo} alt="" />
-            <span>MongoDB</span>
-          </div>
 
           <div className="gridicon AnimateFirstRowSectionFour">
-            <img src={redux} alt="" />
-            <span>Redux</span>
+            <img src={mongo} alt="" />
+            <span>Mongo DB</span>
           </div>
         </div>
 
         <div className="skills_IconsRow">
           <div className=" gridicon AnimateFirstRowSectionFive">
-            <img src={nxt} alt="" />
-            <span>Next JS</span>
+            <img src={redux} alt="" />
+            <span>Redux</span>
           </div>
           <div className="gridicon AnimateFirstRowSectionFive">
             <img src={tailwind} alt="" />
             <span style={{ marginLeft: "10px" }}>Tailwind CSS</span>
           </div>
           <div className="gridicon AnimateFirstRowSectionSix">
-            <img src={JWT} alt="" />
-            <span>JWT</span>
+            <img src={boot} alt="" />
+            <span>Bootstrap</span>
           </div>
           <div className="gridicon AnimateFirstRowSectionSix">
-            <img src={github} alt="" />
-            <span>GitHub</span>
+            <img src={sass} alt="" />
+            <span>SASS</span>
           </div>
         </div>
 
@@ -85,18 +87,38 @@ function Skillicons() {
             <span>Postman</span>
           </div>
           <div className="gridicon AnimateFirstRowSectionSeven">
-            <img src={firebase} alt="" />
-            <span>Firebase</span>
+            <img src={github} alt="" />
+            <span>Github</span>
           </div>
           <div className="gridicon AnimateFirstRowSectionEight">
             <img src={sql} alt="" />
             <span>SQL</span>
           </div>
           <div className="gridicon AnimateFirstRowSectionEight">
+            <img src={firebase} alt="" />
+            <span>Firebase</span>
+          </div>
+        </div>
+
+        <div className="skills_IconsRow">
+          <div className=" gridicon AnimateFirstRowSectionNine">
             <img src={socket} alt="" />
             <span>Socket IO</span>
           </div>
+          <div className="gridicon AnimateFirstRowSectionNine">
+            <img src={JWT} alt="" />
+            <span>Json Web Token</span>
+          </div>
+          {/* <div className="gridicon AnimateFirstRowSectionTen">
+            <img src={sql} alt="" />
+            <span>SQL</span>
+          </div>
+          <div className="gridicon AnimateFirstRowSectionTen">
+            <img src={socket} alt="" />
+            <span>Socket IO</span>
+          </div> */}
         </div>
+
       </div>
     </div>
   );
