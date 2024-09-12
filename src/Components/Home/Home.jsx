@@ -38,7 +38,7 @@ function Home() {
             </div>
           </div>
           <a
-            href="https://drive.google.com/file/d/1UUfH1_YV9q1nE7XgFMGCHBItn6SvyfRd/view?usp=sharing"
+            href="https://drive.google.com/file/d/1JrjfpIJPFcTW6fuYbBDLVF2RHf9BIC_F/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="resumedownloadLink"
