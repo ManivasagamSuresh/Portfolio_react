@@ -52,11 +52,13 @@ align-items: center;
   flex-flow: row wrap;
 }
 .card-link:hover {
-  color: #af9439;
-  transform: scale(1.1);
+  /* color: #af9439; */
+  color: #ffc40a;
+  transition: 0.5s;
+  transform: scale(1.05);
 }
 .card-tech {
-  color: #af9439;
+  color: #ffc40a;
 }
 .card-title {
   font-weight: bolder;
