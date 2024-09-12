@@ -8,7 +8,10 @@ import mongo from "../../images/mong.png";
 import node from "../../images/node.jpg";
 import post from "../../images/postman.png";
 import sql from "../../images/sql.png";
-import github from "../../images/github.png";
+// import github from "../../images/github.png";
+import vercel from "../../images/vercel.png";
+import figma from "../../images/figma.png";
+import git from "../../images/git.svg";
 import redux from "../../images/reduxy-removebg-preview.png";
 import firebase from "../../images/firebase-removebg-preview.png";
 import JWT from "../../images/JWT.png";
@@ -87,8 +90,8 @@ function Skillicons() {
             <span>Postman</span>
           </div>
           <div className="gridicon AnimateFirstRowSectionSeven">
-            <img src={github} alt="" />
-            <span>Github</span>
+            <img src={git} alt="" />
+            <span>Git</span>
           </div>
           <div className="gridicon AnimateFirstRowSectionEight">
             <img src={sql} alt="" />
@@ -107,16 +110,16 @@ function Skillicons() {
           </div>
           <div className="gridicon AnimateFirstRowSectionNine">
             <img src={JWT} alt="" />
-            <span>Json Web Token</span>
-          </div>
-          {/* <div className="gridicon AnimateFirstRowSectionTen">
-            <img src={sql} alt="" />
-            <span>SQL</span>
+            <span style={{textAlign:"center"}}>Json Web Token</span>
           </div>
           <div className="gridicon AnimateFirstRowSectionTen">
-            <img src={socket} alt="" />
-            <span>Socket IO</span>
-          </div> */}
+            <img src={figma} alt="" />
+            <span>Figma</span>
+          </div>
+          <div className="gridicon AnimateFirstRowSectionTen">
+            <img src={vercel} alt=""/>
+            <span>Vercel</span>
+          </div>
         </div>
 
       </div>

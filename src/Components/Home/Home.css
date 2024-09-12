@@ -71,6 +71,7 @@
 
 .resumedownloadLink {
   width: fit-content;
+  text-decoration: none !important;
 }
 
 #resumedownload {
@@ -80,13 +81,18 @@
   border: 1px solid #ffc40a;
   border-radius: 4px;
   padding: 6px 12px;
+  display: flex;
+  gap:12px;
+ 
 }
 
 #resumedownload:hover {
-  color: #fff;
-  background: #ffc40a;
+  /* color: #fff; */
+  /* background: #ffc40a; */
   transition: 0.5s;
-  transform: scale(1.05);
+  gap: 22px;
+  /* transform: scale(1.05); */
+ 
 }
 
 #image1 {

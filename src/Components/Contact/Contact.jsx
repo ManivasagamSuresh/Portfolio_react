@@ -9,7 +9,7 @@ import "./Contact.css";
 
 function Contact() {
   const [mail, setmail] = useState(false);
-  const [loading,setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
   const formik = useFormik({
     initialValues: {
       name: "",
@@ -25,10 +25,10 @@ function Contact() {
           formik.resetForm();
           setmail(true);
           sendEmail();
-          setLoading(false)
+          setLoading(false);
         }
       } catch (error) {
-        setLoading(false)
+        setLoading(false);
       }
     },
   });
@@ -54,8 +54,8 @@ function Contact() {
                 <span>
                   <AiOutlineGithub className="Contact_socialIcon" />
                 </span>
+                <span>Github</span>
               </a>
-              <span>Github</span>
             </div>
             <br />
             <div className="Contact_socialIconsContainer">
@@ -68,14 +68,22 @@ function Contact() {
                 <span>
                   <BsLinkedin className="Contact_socialIcon" />
                 </span>
+                <span style={{ color: "#fff" }}>LinkedIn</span>
               </a>
-              <span>LinkedIn</span>
             </div>
             <br />
-            <div className="Contact_socialIconsContainer">
+            <a
+              href="mailto:s.kishore123.64@gmail.com"
+              className="Contact_socialIconsContainer"
+              style={{
+                textDecoration: "none",
+                color: "inherit",
+               
+              }}
+            >
               <MdEmail className="Contact_socialIcon" />
               <span>s.kishore123.64@gmail.com</span>
-            </div>
+            </a>
           </div>
         </div>
         <div className="contact-r">
@@ -110,16 +118,17 @@ function Contact() {
               onChange={formik.handleChange}
             ></textarea>
             <br />
-            {
-              loading  ?  <button type="submit" className="submit">
-              Sending...
-              <i className="fa fa-paper-plane" aria-hidden="true" style={{ color: "#fff" }}></i>
-            </button> :  <button type="submit" className="submit">
-              Send <IoIosSend />{" "}
-              <i className="fa fa-paper-plane" aria-hidden="true" style={{ color: "#fff" }}></i>
-            </button>
-             }
-           
+            {loading ? (
+              <button type="submit" className="submit">
+                Sending...
+                <i className="fa fa-paper-plane" aria-hidden="true" style={{ color: "#fff" }}></i>
+              </button>
+            ) : (
+              <button type="submit" className="submit">
+                Send <IoIosSend />{" "}
+                <i className="fa fa-paper-plane" aria-hidden="true" style={{ color: "#fff" }}></i>
+              </button>
+            )}
           </form>
           <br />
           {mail && <span id="msg">Mail Sent Successfully !</span>}

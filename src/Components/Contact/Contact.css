@@ -7,7 +7,17 @@
   display: flex;
   gap: 16px;
   align-items: center;
+  cursor: pointer;
 }
+
+.Contact_socialIconsContainer a{
+  text-decoration: none;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+
 
 #line {
   background: #ffc40a;

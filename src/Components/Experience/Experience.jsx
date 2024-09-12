@@ -12,10 +12,10 @@ function Experience() {
             <ul className="white-disc-sub">
               <li>
               {/*  */}
-               <span className="underline-yellow" >Admin website</span>: Created with React.js, featuring interactive dashboards, data visualization, and PDF management for efficient administration.
+               <span className="underline-yellow" >Admin website</span>: Created with React.js and styled with Bootstrap, featuring interactive dashboards, data visualization, and PDF management for efficient administration.
               </li>
               <li>
-              <span className="underline-yellow" > Patient website</span>: Built with Next.js, providing features for appointment booking and viewing, improving user interaction with AYOO Care’s healthcare services.
+              <span className="underline-yellow" > Patient website</span>: Built with Next.js and styled with Sass, providing features for appointment booking and viewing, improving user interaction with AYOO Care’s healthcare services.
               </li>
             </ul>
           </li>
