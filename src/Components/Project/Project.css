@@ -23,12 +23,13 @@
   flex-direction: column;
   gap: 48px;
   margin-bottom: 108px;
+  margin-top: 54px;
 }
 
 .card-body {
-  border-radius: 15px;
+  border-radius: 6px;
   overflow: hidden;
-  background-color: rgba(192, 192, 192,0.3);
+  background-color: rgba(192, 192, 192,0.7);
   color: #080808;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -84,6 +85,8 @@ align-items: center;
 }
 .card-i {
   flex: 1;
+  display: flex;
+  justify-content: center;
 }
 .project-img {
   width: 340px;
@@ -116,12 +119,13 @@ align-items: center;
     flex-direction: column;
     gap: 24px;
     margin-bottom: 48px;
+    margin-top: 28px;
   }
 
   .card-body {
-    border-radius: 16px;
+    border-radius: 4px;
     overflow: hidden;
-    background-color: #c0c0c0;
+    background-color: rgba(192, 192, 192,0.7);
     color: #080808;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;

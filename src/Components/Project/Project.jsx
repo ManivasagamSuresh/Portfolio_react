@@ -10,11 +10,11 @@ function Project() {
     <div className="ProjectDescriptionContainer">
       <h1 className="projects-heading ">PROJECTS</h1>
       <h2 className="projects-des">What I Built</h2>
-      <div className='credsContainer'>
+      {/* <div className='credsContainer'>
       <h4>Credentials</h4>
       <div>Admin: admin@gmail.com, Password: admin</div>
       <div >User: test@gmail.com, Password: test </div>
-      </div>
+      </div> */}
     </div>
     <Projectcard />
   </div>

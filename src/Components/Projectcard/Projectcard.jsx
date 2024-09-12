@@ -6,11 +6,69 @@ import myntra from "../../images/myntra.png";
 import youtube from "../../images/youtube.png";
 import tournament from "../../images/tournament.png";
 import chat from "../../images/chat.png";
+import kavifood from "../../images/kavifood.png";
 import catalog from "../../images/item.png";
 
 function Projectcard() {
   return (
     <div className="projectCardContainer">
+      <div className="card-body">
+        <div className="card-d">
+          <div className="card-title">FOOD E-COMMERCE WEBSITE (Sep 2024)</div>
+          <div className="card-text">
+            Users can sign-up and sign-in with email, but can also place orders without logging in.
+            <br />
+            Allows users to view products, add them to the cart, and place orders using Razorpay
+            payment gateway.
+            <br />
+            Users can track their orders through the order summary, where order status and tracking
+            links are updated by the admin.
+            <br />
+            Admins can view all products and orders, and have the ability to update order statuses
+            and provide tracking information.
+          </div>
+          <div>
+            <span className="card-tech">Technologies and libraries used: </span>{" "}
+            <span className="techUsed">
+              {" "}
+              Next.js, Tailwind, Redux Toolkit, MongoDB, Razorpay, Nodemailer
+            </span>
+          </div>
+          <div className="projectcard-icons">
+            <a
+              className="card-link"
+              href="https://kaviseyon-foods.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BiLinkExternal className="giticon" />
+              View Project
+            </a>
+            <a
+              className="card-link"
+              href="https://github.com/ManivasagamSuresh/kaviseyonFoods"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FiGithub className="giticon" />
+              View Code
+            </a>
+            {/* <a
+              className="card-link"
+              href="https://github.com/ManivasagamSuresh/myntra-clone-backend"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <VscGithub className="giticon" />
+              Back-End
+            </a> */}
+          </div>
+        </div>
+        <div className="card-i">
+          <img className="project-img" src={kavifood} alt="" />
+        </div>
+      </div>
+
       <div className="card-body">
         <div className="card-d">
           <div className="card-title">Fashion E-Commerce Website (Mar 2023)</div>
