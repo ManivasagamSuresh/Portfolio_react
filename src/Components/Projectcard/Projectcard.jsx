@@ -14,7 +14,7 @@ function Projectcard() {
     <div className="projectCardContainer">
       <div className="card-body">
         <div className="card-d">
-          <div className="card-title">FOOD E-COMMERCE WEBSITE (Sep 2024)</div>
+          <div className="card-title" style={{color:"#ffc40a"}}>FOOD E-COMMERCE WEBSITE (Sep 2024)</div>
           <div className="card-text">
             Users can sign-up and sign-in with email, but can also place orders without logging in.
             <br />

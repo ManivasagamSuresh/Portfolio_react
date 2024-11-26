@@ -34,7 +34,7 @@
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-wrap: wrap;
-  padding: 18px 48px;
+  padding: 18px 48px; 
 }
 
 .card-link {
@@ -61,8 +61,9 @@ align-items: center;
   color: #ffc40a;
 }
 .card-title {
-  font-weight: bolder;
+  font-weight: 500;
   font-size: 24px;
+  color: #ffc40a;
 }
 .card-text {
   font-size: 16px;
@@ -100,6 +101,7 @@ align-items: center;
 
   .projects-heading{
     font-size: 28px;
+
   }
 
   .projectOuterContainer {
@@ -136,8 +138,9 @@ align-items: center;
   }
 
   .card-title {
-    font-weight: bolder;
+    font-weight: 500;
     font-size: 20px;
+    color: #ffc40a !important;
   } 
 
   .card-text {
