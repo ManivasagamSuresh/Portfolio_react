@@ -57,7 +57,7 @@ function Experience() {
         </ul>
       </div>
       <div>
-        <span className="durationExp">July 2023 - Oct 2023</span> <br />
+        <span className="durationExp">July 2023 - Sep 2023</span> <br />
         <div className="expTitle">Full-Stack Web Developer (Freelance) - Kaviseyonfoods</div>
         <ul className="white-disc">
           <li>
