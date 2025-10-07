@@ -7,11 +7,21 @@ function Experience() {
         <span className="durationExp">Nov 2023 - Present</span> <br />
         <div className="expTitle">Front-End Engineer - AYOO Care, Bangalore</div>
         <ul className="white-disc">
-          <li>Contributed to the development of patient and admin websites for AYOO Care using modern front-end technologies.</li>
-          <li>Built the admin panel with React.js, styled using Sass and Bootstrap, and integrated Redux for state management.</li>
-          <li>Implemented features like interactive dashboards, data visualization, and PDF management for efficient administration.</li>
-          <li>Developed the patient website using Next.js, leveraging Server-Side Rendering (SSR) to enhance SEO and pre-render static pages like blogs for improved First Contentful Paint (FCP). Styled the site with Sass and Bootstrap, integrated Redux for state management, and implemented seamless appointment booking and viewing functionalities to enhance user experience.</li>
-          
+          <li>
+            Developed the Patient Website using Next.js, leveraging Server-Side Rendering (SSR) and
+            pre-rendered static pages for improved SEO and faster First Contentful Paint (FCP).
+          </li>
+          <li>
+            Styled with Sass, Bootstrap, and integrated Redux for state management, implementing
+            features like appointment booking and viewing, Razorpay payment gateway integration, and
+            Zoom video consultation.
+          </li>
+          <li>
+            Built the Admin Panel with React.js and Bootstrap, integrating Redux for efficient state
+            management, and delivering features such as interactive dashboards, data visualization,
+            and PDF management to streamline administration.
+          </li>
+
           {/* <li>
             Developed patient and admin websites using modern front-end technologies:
             <ul className="white-disc-sub">
@@ -61,22 +71,19 @@ function Experience() {
         <div className="expTitle">Full-Stack Web Developer (Freelance) - Kaviseyonfoods</div>
         <ul className="white-disc">
           <li>
-            Contributed to the development of a customer-facing e-commerce platform using Next.js,
-            TypeScript, and Tailwind CSS, with support for guest checkout. Enabled users to browse
-            products, add items to the cart, and place orders seamlessly using the Razorpay payment
-            gateway.
+            Developed a customer-facing e-commerce platform using Next.js, TypeScript, Tailwind CSS,
+            and Redux Toolkit (with persistent data), enabling seamless product browsing, cart
+            management, and guest checkout.
+          </li>
+          
+          <li>
+            Integrated the Razorpay payment gateway for secure transactions, and implemented
+            sign-up/sign-in via email, with support for order placement without login, to enhance
+            user experience.
           </li>
           <li>
-            Developed sign-up and sign-in functionalities via email, while also supporting order
-            placement without login for a smooth user experience.
-          </li>
-          <li>
-            Built features for real-time order tracking through the order summary page, where order
-            statuses and tracking links are dynamically updated by the admin.
-          </li>
-          <li>
-            Added admin login to manage order status and tracking link updates via the All Orders
-            page.
+            Built real-time order tracking with dynamic status updates and tracking links, managed
+            by the admin through a secure All Orders dashboard.
           </li>
         </ul>
       </div>
@@ -85,10 +92,11 @@ function Experience() {
         <div className="expTitle">INTERN SOFTWARE ENGINEER - TBD-HEALTH, Remote</div>
         <ul className="white-disc">
           <li>
-          Enhanced the product website's usability and aesthetics by designing and implementing intuitive front-end features using React.js.
+            Improved product website usability and UI by building frontend features using React.js and Next.js.
           </li>
-          <li>Built robust back-end services with Next.js, streamlining partner integrations and ensuring seamless functionality.</li>
-          <li>Utilized AWS DynamoDB for basic data storage solutions, ensuring efficient handling of application data.</li>
+          <li>
+            Built backend services with Next.js and utilized AWS DynamoDB for data storage integrations.
+          </li>
         </ul>
       </div>
 
